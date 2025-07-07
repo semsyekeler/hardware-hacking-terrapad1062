@@ -1,48 +1,39 @@
-# Terra Pad 1062: Donanım Hacking ve Yeniden Doğuş Projesi
+# Terra Pad 1062 (Model: 1220551) - Kapsamlı Onarım ve Modifikasyon Rehberi
 
-![Proje Kapak Fotoğrafı](link_koyulacak_en_havali_fotograf.jpg)
+![Projenin Kapak Fotoğrafı](./assets/images/one%20note%20for%20windows%2010%20tablet%20dış%20çekim.jpg)
 
-Bu repo, terk edilmiş bir teknoloji parçasının küllerinden nasıl yeniden doğduğunu anlatan bir hikayedir. Başlangıçta yazılımsal bir hatayla "tuğla" olan bir Terra Pad 1062 tableti, adım adım analiz ederek, üreticiyi ikna ederek, donanımını çözerek ve sınırlarını zorlayarak nasıl kişisel, güçlü ve benzersiz bir cihaza dönüştürdüğümün günlüğüdür.
+Bu depo, yazılımsal bir hata sonucu kullanılamaz hale gelen bir Terra Pad 1062 tabletin, sistematik arıza tespiti, üretici desteğiyle onarımı ve ardından bir dizi donanımsal modifikasyonla sınırlarının zorlanması sürecini belgelemektedir.
 
-Eğer elinizde eski bir cihaz varsa ve ona ikinci bir şans vermek istiyorsanız, doğru yerdesiniz.
+Bu, terk edilmiş bir teknoloji parçasının potansiyelini ortaya çıkarma ve onu modern ihtiyaçlara cevap veren kişisel bir araca dönüştürme hikayesidir. Bu rehber, benzer sorunlar yaşayan kullanıcılara bir yol haritası sunmak ve "kendin yap" ruhunu ateşlemek amacıyla hazırlanmıştır.
+
+**UYARI:** Bu rehberdeki işlemler risk içermektedir. Cihazınıza kalıcı hasar verebilirsiniz ve garantiyi geçersiz kılabilirsiniz. Tüm sorumluluk size aittir.
 
 ---
 
-## Yolculuğun Durakları
+## Projenin Bölümleri
 
-Bu maceranın her adımı kendi hikayesini anlatıyor:
+1.  **[Bölüm I: Diriliş - Unutulmuş Bir Belleği Uyandırmak](./docs/1_The_Resurrection.md)**
+    *   Başarısız bir işletim sistemi kurulumu sonrası ortaya çıkan eMMC tanıma hatasının derinlemesine analizi.
+    *   Sorunun donanımsal değil, firmware kaynaklı olduğunun tespiti ve üreticiye kanıtlanması.
+    *   Tek bir USB portuyla imkansız görünen BIOS flash'lama işleminin, özel bir yöntemle nasıl başarıldığının hikayesi.
 
-### 📜 **Bölüm I: Diriliş - Ölü Bir Tableti Hayata Döndürmek**
-*   **Sorun:** Umutsuz bir "Preparing Automatic Repair" döngüsü. UEFI, kendi belleğini tanımıyordu.
-*   **Görev:** Cihazı açmadan, uzaktan destekle sorunun köküne inmek. Üreticiye, sorunun donanım değil, firmware olduğunu kanıtlamak.
-*   **Kritik An:** Tek bir USB portuyla hem klavyeyi hem de flash belleği kullanma imkansızlığı ve bu imkansızlığı fiziksel tuşlarla aşan "Shell Komut Pufferlama" tekniği.
-*   **Sonuç:** Başarılı bir BIOS flash'ı ve yeniden çalışan bir tablet.
-*   ➡️ **[Diriliş'in tüm detayları ve teknik kanıtlar için tıklayın...](./docs/1_The_Resurrection.md)**
+2.  **[Bölüm II: Sırları Çözmek - Kayıp Docking Portunun Haritası](./docs/2_Unlocking_The_Port.md)**
+    *   Tabletin altındaki gizemli 5-pinli Pogo-Pin konnektörünün tersine mühendislikle deşifre edilmesi.
+    *   Bu portu kullanarak cihaza harici bir USB-A portu kazandırma ve özel adaptör yapımı.
 
-### ⚙️ **Bölüm II: Sırları Çözmek - Kayıp Docking Portu**
-*   **Merak:** Tabletin altındaki gizemli 5 pogo-pin ne işe yarıyordu?
-*   **Görev:** Üreticiden gelen bir şema kırıntısı ve bir multimetre ile pinlerin haritasını çıkarmak. +5V, GND, D+, D- ve o sihirli "Klavye Algılama" pini.
-*   **İcat:** Bu sırrı çözdükten sonra, tablete yepyeni bir USB portu kazandıran özel yapım adaptörün doğuşu.
-*   ➡️ **[Docking Portu'nun sır perdesini aralamak ve kendi adaptörünüzü yapmak için tıklayın...](./docs/2_Unlocking_The_Port.md)**
+3.  **[Bölüm III: Evrim - Metal ve Silikonun Yeniden Şekillenişi](./docs/3_The_Evolution.md)**
+    *   Cihazın "teneke" sesini, gerçek bir ses deneyimine dönüştüren hoparlör modifikasyonu.
+    *   Çizik bir lensin, hassas bir operasyonla nasıl kurtarıldığı.
+    *   "Hayalet Klavye" gibi gizemli donanım sorunlarının tespiti ve yalıtımla çözümü.
+    *   Cihazın fiziksel bütünlüğünü artıran ve gıcırdamaları ortadan kaldıran kasa iyileştirmeleri.
 
-### 🛠️ **Bölüm III: Evrim - Standart Bir Tabletten Daha Fazlası**
-*   **Hedef:** Cihazı sadece "çalışır" durumdan "kullanması keyifli" duruma getirmek.
-*   **Operasyonlar:**
-    *   **Ses Güçlendirme:** Teneke gibi çıkan seslere son! Bir laptoptan sökülen hoparlörlerle ses kalitesini yükseltme.
-    *   **Görüş Netliği:** Çizik bir lensin ardına saklanmış kamerayı, yeni bir lensle kurtarma.
-    *   **Sessizlik Terapisi:** Gıcırdayan kasayı, stratejik desteklerle susturma.
-    *   **İzolasyon Görevi:** Şaseye temas eden soketin yarattığı "hayalet klavye" sorununu sıcak silikonla kalıcı olarak çözme.
-*   ➡️ **[Tabletin geçirdiği tüm donanımsal evrimleri görmek için tıklayın...](./docs/3_The_Evolution.md)**
-
-### 🧪 **Bölüm IV: Ruh Arayışı - Doğru İşletim Sistemi**
-*   **Deneyler:** Windows 10'un ötesinde bir dünya var mıydı? MX Linux, Zorin, Debian... onlarca dağıtım denemesi.
-*   **Sonuç:** Donanımla en kusursuz dansı eden, kalemle en iyi anlaşan ve en stabil performansı sunan ruhun Windows 10 olduğuna karar verme süreci.
-*   ➡️ **[İşletim sistemi maceraları ve performans notları için tıklayın...](./docs/4_The_Soul.md)**
+4.  **[Bölüm IV: Ruh Arayışı - Mükemmel İşletim Sistemini Bulmak](./docs/4_The_Soul.md)**
+    *   Farklı Linux dağıtımları ile yapılan zorlu uyumluluk testleri.
+    *   Düşük güçlü bir Atom işlemcide YouTube gibi platformlarda akıcı bir deneyim sağlayan yazılım optimizasyonları (örneğin FreeTube).
+    *   Nihai kararın neden Windows 10 olduğu ve bu işletim sisteminin donanımla nasıl mükemmel bir uyum yakaladığı.
 
 ---
 
 ## Teşekkür
 
-Bu projenin başlangıç noktasındaki yardımlarından dolayı Wortmann AG'den **Dennis Sudermann**'a teşekkürler.
-
----
+Bu projenin başlangıç noktasındaki değerli yardımlarından dolayı Wortmann AG'den **Dennis Sudermann**'a teşekkürler.
