@@ -1,32 +1,39 @@
-# Terra Pad 1062: Bir Yeniden Doğuş Projesi
+# Terra Pad 1062 (Model: 1220551) - Kapsamlı Onarım ve Modifikasyon Rehberi
 
 ![Projenin Kapak Fotoğrafı](./assets/images/one%20note%20for%20windows%2010%20tablet%20dış%20çekim.jpg)
 
-Bu depo, elektronik bir enkazın, bilgi, inat ve bir tutam mühendislikle nasıl yeniden hayata döndürüldüğünün ve sınırlarının ötesine taşındığının günlüğüdür. Başlangıçta yazılımsal bir hatayla "tuğla" olan bir Terra Pad 1062 tableti, adım adım analiz ederek, üreticiyi ikna ederek ve donanımını çözerek nasıl modern, güçlü ve benzersiz bir cihaza dönüştürdüğümü anlatıyor.
+Bu depo, yazılımsal bir hata sonucu kullanılamaz hale gelen bir Terra Pad 1062 tabletin, sistematik arıza tespiti, onarımı ve bir dizi donanımsal/yazılımsal modifikasyonla modern bir cihaza dönüştürülmesi sürecini adım adım belgelemektedir.
 
-Bu rehber, benzer sorunlar yaşayan kullanıcılara bir yol haritası sunmak ve "kendin yap" ruhunu ateşlemek amacıyla hazırlanmıştır.
+Bu rehber, benzer cihazlara sahip olan veya donanım modifikasyon projelerine ilgi duyanlar için teknik bir başvuru kaynağı olarak tasarlanmıştır.
 
-**UYARI:** Bu rehberdeki işlemler risk içermektedir ve cihaz garantisini geçersiz kılabilir. Tüm sorumluluk size aittir.
+**UYARI:** Bu rehberdeki işlemler bilgi ve tecrübe gerektirir. Cihazınıza kalıcı hasar verebilirsiniz ve garantiyi geçersiz kılabilirsiniz. Tüm sorumluluk size aittir.
 
 ---
 
-## Maceranın Kilometre Taşları
+## Proje İçeriği
 
-1.  **[Bölüm I: Diriliş - Kayıp Ruhu Çağırmak](./docs/1_The_Resurrection.md)**
-    *   Cihazın kendi belleğini nasıl unuttuğunun ve bu "amnezi"nin ardındaki firmware gizeminin çözülmesi.
-    *   Tek bir USB portuyla imkansız görünen BIOS flash'lama operasyonunun, alışılmışın dışında bir yöntemle nasıl başarıldığının hikayesi.
+1.  **[Bölüm I: UEFI/BIOS Onarımı](./docs/1_BIOS_Repair.md)**
+    *   Başarısız bir OS kurulumu sonrası ortaya çıkan eMMC tanıma hatasının analizi ve kanıta dayalı teşhisi.
+    *   Üretici desteği ile BIOS'un yeniden flash'lanması ve tek USB portu kısıtlamasının özel bir yöntemle aşılması.
 
-2.  **[Bölüm II: Sırları Çözmek - Yasak Portun Şifreleri](./docs/2_Unlocking_The_Port.md)**
-    *   Tabletin altındaki gizemli 5-pinli Pogo-Pin konnektörünün tersine mühendislikle deşifre edilmesi.
-    *   Bu sırrı kullanarak cihaza yepyeni bir USB kapısı açan özel adaptörün yaratılışı.
+2.  **[Bölüm II: Docking Portu Tersine Mühendisliği](./docs/2_Docking_Port_Reverse_Engineering.md)**
+    *   5-pinli Pogo-Pin konnektörünün pin analizi, şeması ve tam işlevli bir USB 2.0 portuna dönüştürülmesi.
+    *   Bu portu kullanarak özel harici USB-A adaptörü yapımı.
 
-3.  **[Bölüm III: Metamorfoz - Cihazın Yeniden Yaratılışı](./docs/3_The_Evolution.md)**
-    *   Cihazın "teneke" sesini, kasa geometrisine sıfıra sıfır oturan laptop hoparlörleriyle nasıl bir ses deneyimine dönüştürüldüğü.
-    *   "Hayalet Klavye" gibi gizemli donanım hatalarının dedektif gibi iz sürülerek bulunması ve yalıtımla çözülmesi.
-    *   Çizik bir lensin, hassas bir operasyonla nasıl kurtarıldığı ve kasanın nasıl susturulduğu.
+3.  **[Bölüm III: Donanımsal Evrim](./docs/3_Hardware_Evolution.md)**
+    *   Ses kalitesini artıran ve kasa geometrisine kusursuz oturan laptop hoparlörü montajı.
+    *   Gizemli "Hayalet Klavye" sorununun tespiti ve yalıtımla kalıcı olarak çözümü.
+    *   Çizik kamera lensinin değiştirilmesi ve şase gıcırdama sorununun giderilmesi gibi diğer mekanik iyileştirmeler.
 
-4.  **[Bölüm IV: Simya - Donanım ve Yazılımın Mükemmel Uyumu](./docs/4_The_Soul.md)**
-    *   Düşük güçlü bir Atom işlemciye, doğru yazılımlarla (FreeTube) nasıl akıcı 1080p video izletilebildiğinin sırrı.
-    *   Linux maceralarından sonra, Windows 10'un bu donanım için neden vazgeçilmez bir "ruh" olduğunun kanıtı.
+4.  **[Bölüm IV: Yazılım Optimizasyonu](./docs/4_Software_Optimization.md)**
+    *   Düşük güçlü Intel Atom işlemcide akıcı 1080p video oynatımını mümkün kılan FreeTube gibi kritik yazılım seçimleri.
+    *   Linux dağıtımları ile yapılan uyumluluk testleri ve nihai işletim sistemi kararı.
+
+## Gerekli Aletler ve Ekipmanlar
+*   Torx T4 Tornavida Ucu
+*   Plastik Pena veya Eski Banka Kartı (Kasayı açmak için)
+*   Multimetre (Pin analizi için)
+*   Havya ve Lehim (Hoparlör ve adaptör modifikasyonları için)
+*   Sıcak Silikon Tabancası (Yalıtım için)
 
 ---
