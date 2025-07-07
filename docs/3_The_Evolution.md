@@ -1,42 +1,26 @@
-# Bölüm III: Evrim - Metal ve Silikonun Yeniden Şekillenişi
+# Bölüm III: Donanımsal Evrim
 
-Bir cihazı onarmak onu eski haline getirmektir. Onu "evrimleştirmek" ise potansiyelinin ötesine taşımaktır. Bu bölüm, Terra Pad 1062'nin zayıf noktalarını güçlendirme ve onu benzersiz bir cihaza dönüştürme operasyonlarını içerir.
+Bir cihazı onarmak onu standartlarına döndürür. Onu evrimleştirmek ise potansiyelini ortaya çıkarmaktır. Bu bölümde, tabletin zayıf noktalarını güçlendiren ve onu daha kullanışlı hale getiren modifikasyonlar yer almaktadır.
 
-## Operasyon 1: Cihazı Açmak - Cerrahın Hazırlığı
+### Modifikasyon 1: Ses Sistemi Yükseltmesi
 
-Her şey, cihazın kalbine inmekle başlar.
-
-*   **Gerekli Ekipman:** Yüksek kaliteli bir **Torx T4** tornavida ucu şart. Düşük kaliteli uçlar vidaları kolayca yalama yapabilir. Kasayı çizmeden açmak için ise eski bir banka kartı veya gitar penası en iyi dostunuzdur.
-*   **Sökme Stratejisi:**
-    1.  Arka kapaktaki vidaları sökün. **KRİTİK İPUCU:** Menteşenin doğrudan tabletin ana şasesine bağlandığı vidalara dokunmayın! Sadece tabletin kendi standını (kickstand) tutan vidaları sökün. Aksi takdirde geri montajda menteşe hizalaması büyük bir sorun olabilir.
-    2.  Pena veya kartı kullanarak, kasanın kenarlarından dikkatlice ve sabırla kanırtarak tırnakları attırın.
-*   **İçeride Dikkat Edilecekler:**
-    *   Ribbon (şerit) kablolar inanılmaz derecede hassastır. Fazla çekiştirmeyin, katlamayın ve keskin aletlerden uzak tutun.
-    *   Anakart üzerinde çalışırken statik elektriğe dikkat edin ve metal aletlerle kısa devre yapmaktan kaçının.
-
-![Gerekli Ekipman](../assets/images/tablet%20and%20ve%20torna%20vidalarım.jpg)
-
-## Operasyon 2: Ses Güçlendirme - Tenekeden Senfoniye
-
-Tabletin en büyük hayal kırıklıklarından biri, cılız ve tiz ses çıkaran hoparlörleriydi.
-
-*   **Çözüm:** Eski, ama kaliteli bir dizüstü bilgisayardan söktüğüm stereo hoparlörleri, tabletin orijinal hoparlör çıkışlarına dikkatlice lehimledim. Kabloları uzatarak kasa içinde en uygun konuma yerleştirdim. Sonuç, ses seviyesi ve bas kalitesi açısından devrim niteliğindeydi. Artık harici bir hoparlöre ihtiyaç duymadan film izlemek veya müzik dinlemek keyifli hale gelmişti.
+*   **Problem:** Cihazın orijinal hoparlörleri, cılız, tiz ve yetersiz bir ses kalitesi sunuyordu.
+*   **Çözüm:** Eski bir dizüstü bilgisayardan söktüğüm, çok daha kaliteli ve dolgun ses veren bir çift hoparlörü, tabletin orijinal hoparlör çıkışlarına lehimledim.
+*   **Mühendislik Detayı:** Buradaki en kritik nokta, hoparlörlerin kasa içindeki yerleşimiydi. Hoparlörleri, kasa geometrisine **sıfıra sıfır** oturacak ve diğer bileşenlere temas etmeyecek şekilde konumlandırdım. Bu hassas yerleşim sayesinde, kasa kapatıldığında ne ekrana bir baskı oluşuyor ne de tableti elde tutarken dışarıdan bir çıkıntı hissediliyordu. Ses kalitesi artarken, cihazın ergonomisi ve bütünlüğü korundu.
 
 ![Hoparlör Lehimleme Anı](../assets/images/hoparlör%20lehimlerken.jpg)
+*^Yeni hoparlörlerin lehimlenmesi.*
 
-## Operasyon 3: Görüş Netliği - Çizik Bir Lense Veda
+### Modifikasyon 2: "Hayalet Klavye" Sorununun Çözümü
 
-İkinci el olan tabletin kamera lensi, sayısız çizik yüzünden neredeyse kullanılamaz haldeydi.
+*   **Problem:** Kendi yaptığım docking portu adaptörünü test ederken, tabletin zaman zaman ortada klavye yokken varmış gibi davrandığını fark ettim. Bu durum, otomatik ekran döndürmeyi kilitliyor ve sanal klavyenin açılmasını engelliyordu.
+*   **Arıza Tespiti:** Birkaç gözlemden sonra sorunun kaynağını buldum: Yaptığım özel soketin lehimlenmiş metal pinleri, tabletin alüminyum şasesine temas ederek `KB_DET` (Klavye Algılama) pinini istem dışı olarak toprağa çekiyordu.
+*   **Çözüm:** Temas eden bölgeyi sıcak silikon ile tamamen yalıtarak bu sorunu kalıcı olarak çözdüm. Bu, özellikle metal kasalı cihazlarda yapılan modifikasyonlarda yalıtımın ne kadar kritik olduğunu gösteren bir tecrübe oldu.
 
-*   **Çözüm:** Yine bir laptop kamerasından söktüğüm sağlam ve temiz lensi, orijinal lensin yerine monte ettim. **TEKNİK:** Lensi doğrudan sökmeye çalışmak yerine, etrafındaki plastik şaseden dikkatlice kırarak ayırdım. Bu, lensin kendisine ve yapışkanına zarar vermeden, temiz bir şekilde transfer edilmesini sağladı.
+### Diğer Mekanik İyileştirmeler
 
-## Operasyon 4: "Hayalet Klavye" ve Diğer Gizemler
-
-Modifikasyonlar ilerledikçe, donanımın tuhaf tepkileriyle karşılaştım.
-
-*   **Gizem:** Kendi yaptığım docking soketini taktıktan sonra, tableti söksem bile sürekli bir klavye takılı olduğunu varsayıyordu. Bu, otomatik ekran döndürmeyi kapatıyor ve sanal klavyenin çıkmasını engelliyordu.
-*   **Hipotez ve Çözüm:** İlk başta sorunun deşarj olmayan bir kapasitörden kaynaklandığını düşündüm ve bataryayı söküp taktım. Bu, sorunu geçici olarak çözdü. Asıl neden ise daha basitti: Yaptığım soketin metal pinleri, tabletin alüminyum şasesine temas ederek `KB_DET` pinini sürekli toprağa çekiyordu. Çözüm, temas eden bölgeyi **sıcak silikon** ile tamamen yalıtmak oldu.
-*   **Gıcırdama Sorunu:** Kasanın belirli noktalarına baskı uygulayınca gelen gıcırdama sesini, kasanın içindeki boşluklara, esnemeyi önleyecek küçük destek parçaları ekleyerek tamamen kestim.
+*   **Kamera Lensi Değişimi:** Çizik olan orijinal kamera lensi, eski bir laptoptan dikkatlice sökülen sağlam bir lens ile değiştirildi. Lens, yapışkanına zarar vermemek için etrafındaki plastikten kırılarak dikkatlice ayrıldı.
+*   **Şase Gıcırdamasının Giderilmesi:** Kasanın esneyen ve gıcırdama yapan noktalarına, iç kısımdan küçük destek parçaları eklenerek cihazın mekanik bütünlüğü artırıldı ve ses sorunu giderildi.
 
 ![Tablet İçi Son Hali](../assets/images/tablet%20modifiye%20edilmiş%20hal%20içi.png)
-*^Hoparlör kabloları, yalıtım ve destek parçalarıyla tabletin evrimini tamamlamış hali.*
+*^Tüm modifikasyonlar tamamlandıktan sonra tabletin iç düzeni.*
