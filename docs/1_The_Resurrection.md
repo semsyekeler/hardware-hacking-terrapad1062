@@ -11,7 +11,7 @@ Sorunun kaynağını bulmak için bir dizi analiz gerçekleştirdim.
 
 *   **Pozitif Sonuç:** Linux ortamında çalışan `GParted` uygulaması, tabletin ~58 GB'lık `MMC CWBD3R` model eMMC'sini sorunsuz bir şekilde tanıdı. Üzerinde bölüm tablolarını silebiliyor ve yeniden oluşturabiliyordum. Bu, eMMC çipinin donanımsal olarak sağlam olduğunun en güçlü kanıtıydı.
 
-![GParted eMMC'yi Görüyor](../assets/images/thumbnail_imag%20e001.jpg)
+![GParted eMMC'yi Görüyor](..assets/images/thumbnail_17477595295231327780041398629873.jpg.jpg)
 *GParted arayüzü, eMMC'nin Linux çekirdeği tarafından tanındığını gösteriyor.*
 
 ### Adım 2: UEFI Firmware Analizi
