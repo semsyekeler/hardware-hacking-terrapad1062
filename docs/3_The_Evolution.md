@@ -1,48 +1,42 @@
-# Bölüm III: Evrim - Standart Bir Tabletten Daha Fazlası
+# Bölüm III: Evrim - Metal ve Silikonun Yeniden Şekillenişi
 
-Tableti hayata döndürmek sadece bir başlangıçtı. Asıl hedef, onu sadece "çalışır" bir cihazdan, kullanması keyifli, kişisel bir araca dönüştürmekti. Bu, bir dizi donanımsal operasyon gerektiriyordu.
+Bir cihazı onarmak onu eski haline getirmektir. Onu "evrimleştirmek" ise potansiyelinin ötesine taşımaktır. Bu bölüm, Terra Pad 1062'nin zayıf noktalarını güçlendirme ve onu benzersiz bir cihaza dönüştürme operasyonlarını içerir.
 
-## Operasyon 1: Cihazı Sökmek ve İç Yapıyı Anlamak
+## Operasyon 1: Cihazı Açmak - Cerrahın Hazırlığı
 
-Her modifikasyon, cihazı tanımakla başlar.
+Her şey, cihazın kalbine inmekle başlar.
 
-*   **Gerekli Aletler:** Torx T4 uçlu tornavida ve kasayı çizmeden açmak için eski bir banka kartı veya pena.
-*   **Sökme Adımları:**
-    1.  Arka kapaktaki vidalar sökülür. **ÖNEMLİ:** Menteşenin doğrudan tablete bağlı olduğu vidalar değil, tabletin kendi standını tutan vidalar sökülecek.
-    2.  Pena veya kart yardımıyla kasa dikkatlice kanırtılarak açılır.
-*   **Dikkat Edilmesi Gerekenler:**
-    *   İçerideki ribbon (şerit) kablolar çok hassastır. Fazla çekiştirmemeye ve koparmamaya özen gösterin.
-    *   İşlem yaparken metal aletlerle anakart üzerinde kısa devre yapmamaya dikkat edin.
+*   **Gerekli Ekipman:** Yüksek kaliteli bir **Torx T4** tornavida ucu şart. Düşük kaliteli uçlar vidaları kolayca yalama yapabilir. Kasayı çizmeden açmak için ise eski bir banka kartı veya gitar penası en iyi dostunuzdur.
+*   **Sökme Stratejisi:**
+    1.  Arka kapaktaki vidaları sökün. **KRİTİK İPUCU:** Menteşenin doğrudan tabletin ana şasesine bağlandığı vidalara dokunmayın! Sadece tabletin kendi standını (kickstand) tutan vidaları sökün. Aksi takdirde geri montajda menteşe hizalaması büyük bir sorun olabilir.
+    2.  Pena veya kartı kullanarak, kasanın kenarlarından dikkatlice ve sabırla kanırtarak tırnakları attırın.
+*   **İçeride Dikkat Edilecekler:**
+    *   Ribbon (şerit) kablolar inanılmaz derecede hassastır. Fazla çekiştirmeyin, katlamayın ve keskin aletlerden uzak tutun.
+    *   Anakart üzerinde çalışırken statik elektriğe dikkat edin ve metal aletlerle kısa devre yapmaktan kaçının.
 
-![Tablet ve Tornavida Seti](../assets/images/tablet%20and%20ve%20torna%20vidalarım.jpg)
+![Gerekli Ekipman](../assets/images/tablet%20and%20ve%20torna%20vidalarım.jpg)
 
-## Operasyon 2: Ses Güçlendirme
+## Operasyon 2: Ses Güçlendirme - Tenekeden Senfoniye
 
-Tabletin orijinal hoparlörlerinin sesi tiz, cılız ve rahatsız ediciydi.
+Tabletin en büyük hayal kırıklıklarından biri, cılız ve tiz ses çıkaran hoparlörleriydi.
 
-*   **Çözüm:** Eski bir dizüstü bilgisayardan sökülen, çok daha kaliteli ve dolgun ses veren hoparlörleri, tabletin orijinal hoparlör çıkışlarına lehimledim. Sonuç, film izlerken veya müzik dinlerken farkını anında hissettiren bir ses kalitesi oldu.
+*   **Çözüm:** Eski, ama kaliteli bir dizüstü bilgisayardan söktüğüm stereo hoparlörleri, tabletin orijinal hoparlör çıkışlarına dikkatlice lehimledim. Kabloları uzatarak kasa içinde en uygun konuma yerleştirdim. Sonuç, ses seviyesi ve bas kalitesi açısından devrim niteliğindeydi. Artık harici bir hoparlöre ihtiyaç duymadan film izlemek veya müzik dinlemek keyifli hale gelmişti.
 
 ![Hoparlör Lehimleme Anı](../assets/images/hoparlör%20lehimlerken.jpg)
 
-## Operasyon 3: Görüş Netliği - Kamera Lensi Değişimi
+## Operasyon 3: Görüş Netliği - Çizik Bir Lense Veda
 
-İkinci el olan tabletin kamera lensi oldukça çizikti ve görüntü kalitesini bozuyordu.
+İkinci el olan tabletin kamera lensi, sayısız çizik yüzünden neredeyse kullanılamaz haldeydi.
 
-*   **Çözüm:** Yine eski bir laptoptan söktüğüm sağlam kamera lensini, orijinal lensin yerine monte ettim. Buradaki kritik nokta, lensi yapışkanına ve kendisine zarar vermeden, doğrudan kuvvet uygulamak yerine etrafındaki şaseden dikkatlice ayıklamaktı. Bu sayede lensi ve yapışkanını koruyarak tablete monte edebildim.
+*   **Çözüm:** Yine bir laptop kamerasından söktüğüm sağlam ve temiz lensi, orijinal lensin yerine monte ettim. **TEKNİK:** Lensi doğrudan sökmeye çalışmak yerine, etrafındaki plastik şaseden dikkatlice kırarak ayırdım. Bu, lensin kendisine ve yapışkanına zarar vermeden, temiz bir şekilde transfer edilmesini sağladı.
 
-## Operasyon 4: Sessizlik Terapisi - Şase Gıcırdamasını Giderme
+## Operasyon 4: "Hayalet Klavye" ve Diğer Gizemler
 
-Tabletin kasasına belirli noktalardan basıldığında rahatsız edici bir gıcırdama sesi geliyordu.
+Modifikasyonlar ilerledikçe, donanımın tuhaf tepkileriyle karşılaştım.
 
-*   **Çözüm:** Kasanın iç kısmında, esneyen bölgelerin arkasına denk gelecek şekilde küçük destek parçaları ekledim. Bu basit modifikasyon, şasenin içe göçmesini ve gıcırdamasını tamamen ortadan kaldırdı.
+*   **Gizem:** Kendi yaptığım docking soketini taktıktan sonra, tableti söksem bile sürekli bir klavye takılı olduğunu varsayıyordu. Bu, otomatik ekran döndürmeyi kapatıyor ve sanal klavyenin çıkmasını engelliyordu.
+*   **Hipotez ve Çözüm:** İlk başta sorunun deşarj olmayan bir kapasitörden kaynaklandığını düşündüm ve bataryayı söküp taktım. Bu, sorunu geçici olarak çözdü. Asıl neden ise daha basitti: Yaptığım soketin metal pinleri, tabletin alüminyum şasesine temas ederek `KB_DET` pinini sürekli toprağa çekiyordu. Çözüm, temas eden bölgeyi **sıcak silikon** ile tamamen yalıtmak oldu.
+*   **Gıcırdama Sorunu:** Kasanın belirli noktalarına baskı uygulayınca gelen gıcırdama sesini, kasanın içindeki boşluklara, esnemeyi önleyecek küçük destek parçaları ekleyerek tamamen kestim.
 
-## Operasyon 5: "Hayalet Klavye" Sorunu ve Nihai Çözüm
-
-Docking portuna kendi yaptığım soketi taktıktan sonra tuhaf bir sorun ortaya çıktı: Tablet, modifikasyonu söksem dahi sürekli bir klavye takılı olduğunu varsayıyordu. Bu da otomatik ekran döndürmeyi kapatıyor ve sanal klavyenin çıkmasını engelliyordu.
-
-*   **İlk Hipotez (Yanlış):** Anakart üzerindeki bir kapasitörün şarjlı kalarak bu durumu "hafızasında tuttuğunu" düşündüm. Çözüm olarak bataryayı tamamen söküp takarak sistemi deşarj etmeyi denedim. Bu geçici bir çözüm oldu.
-*   **Gerçek Nedenin Keşfi:** Sorun tekrarlayınca daha dikkatli bir gözlem yaptım ve asıl suçluyu buldum: Yaptığım soketin metal pinleri, tabletin alüminyum şasesine temas ediyordu! Bu temas, klavye algılama pinini sürekli toprağa çekiyordu.
-*   **Nihai Çözüm:** Temas eden bölgeyi **sıcak silikon** ile yalıtarak bu sorunu kalıcı olarak çözdüm. Bu, modifikasyon yaparken yalıtımın ne kadar kritik olduğunu gösteren önemli bir dersti.
-
-![Tablet içi modifiye edilmiş hali](../assets/images/tablet%20modifiye%20edilmiş%20hal%20içi.png)
-*^Hoparlör kabloları, yalıtım ve destek parçalarıyla tabletin son hali.*
+![Tablet İçi Son Hali](../assets/images/tablet%20modifiye%20edilmiş%20hal%20içi.png)
+*^Hoparlör kabloları, yalıtım ve destek parçalarıyla tabletin evrimini tamamlamış hali.*
