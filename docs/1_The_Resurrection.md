@@ -11,7 +11,7 @@ Her şey, alternatif bir işletim sistemi (Brunch OS) kurma denemesinin başarı
 
 Bu durum, sorunun donanımsal değil, UEFI (BIOS) firmware'inin bozulmasından kaynaklandığını açıkça gösteriyordu.
 
-![GParted eMMC'yi Görüyor](../assets/images/thumbnail_imag%20e001.jpg)
+![GParted eMMC'yi Görüyor](../assets/images/thumbnail_imag%20e001.jpg.jpg)
 *^Linux, donanımın yaşadığını söylüyordu.*
 
 ![UEFI Shell eMMC'yi Görmüyor](../assets/images/Outlook-qgcwu443.png)
