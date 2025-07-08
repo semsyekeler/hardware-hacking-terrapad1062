@@ -11,7 +11,7 @@ After completing the hardware modifications, the next stage was to establish the
 *   **Final Decision:** The tests conclusively proved that for this specific hardware combination, **Windows 10** was the most stable, compatible, and performant platform. The seamless integration of drivers for the touchscreen, pen, and sensors was the deciding factor.
 
 <p align="center">
-  <img src="../assets/images/debian%20net%20install%20kde%20plasma%20denerken%20kod%20ekrani%20açık.jpg" width="550">
+  <img src="../../assets/images/debian%20net%20install%20kde%20plasma%20denerken%20kod%20ekrani%20açık.jpg" width="550">
 </p>
 <p align="center">
   <i>Just one of many experiments in the Linux world. Each distribution presented a different challenge in terms of hardware compatibility.</i>
@@ -30,7 +30,7 @@ The following software, which runs best on this hardware and transforms the tabl
 | **Remote Desktop**| **Parsec** | Its low-latency technology allows you to connect to your main computer remotely, enabling you to perform even heavy tasks smoothly on this tablet. <br> *[Official Website](https://parsec.app/)* |
 
 <p align="center">
-  <img src="../assets/images/programs.jpg" width="700">
+  <img src="../../assets/images/programs.jpg" width="700">
 </p>
 <p align="center">
   <i>Lightweight and powerful software that unlocks the device's potential.</i>
@@ -40,7 +40,7 @@ The following software, which runs best on this hardware and transforms the tabl
 
 | YouTube Problem and Solution | OneNote and Stylus Solution |
 | :---: | :---: |
-| <img src="../assets/images/freetube.jpg" width="350"> | <img src="../assets/images/one%20note%20for%20windows%2010%20tablet%20dış%20çekim.jpg" width="350"> |
+| <img src="../../assets/images/freetube.jpg" width="350"> | <img src="../../assets/images/one%20note%20for%20windows%2010%20tablet%20dış%20çekim.jpg" width="350"> |
 | **Problem:** Watching YouTube in a browser meant constant stuttering and audio/video desync. <br><br> **Solution:** The **[FreeTube](https://freetubeapp.io/)** client, which bypasses the browser, was installed. This single application completely transformed the tablet's media consumption capability, providing a zero-stutter, ad-free, and smooth experience. | **Problem:** Lack of a fluid note-taking app and a stylus. <br><br> **Solution:** The fastest version, `OneNote for Windows 10` (from the Microsoft Store), was combined with the **[VirtualTablet](https://www.sunnysidesoft.com/virtualtablet/)** app. VirtualTablet connects a phone to the PC as a graphics tablet, allowing me to use my phone's stylus in OneNote. |
 
 ### Browser Optimization and Touchscreen Tips
