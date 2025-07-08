@@ -1,4 +1,4 @@
-# Terra Pad 1062 (Model: 1220551) - Kapsamlı Onarım ve Modifikasyon Rehberi
+# Terra Pad 1062 A Windows Tablet (Model: 1220551) - Kapsamlı Onarım ve Modifikasyon Rehberi
 
 ![Projenin Kapak Fotoğrafı](./assets/images/one%20note%20for%20windows%2010%20tablet%20dış%20çekim.jpg)
 
