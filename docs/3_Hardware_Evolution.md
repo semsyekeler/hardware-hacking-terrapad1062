@@ -4,7 +4,7 @@ Bir cihazı onarmak onu standartlarına döndürür. Onu evrimleştirmek ise pot
 
 ### Modifikasyon 1: Ses Sistemi Yükseltmesi
 
-*   **Problem:** Cihazın orijinal hoparlörleri, cılız, tiz ve yetersiz bir ses kalitesi sunuyordu.
+*   **Problem:** Cihazın orijinal hoparlörleri, cılız, tiz ve yetersiz bir ses kalitesi sunuyordu. Bu durum, film izleme veya müzik dinleme keyfini baltalıyordu.
 *   **Çözüm:** Eski bir dizüstü bilgisayardan söktüğüm, çok daha kaliteli ve dolgun ses veren bir çift hoparlörü, tabletin orijinal hoparlör çıkışlarına lehimledim.
 *   **Mühendislik Detayı:** Buradaki en kritik nokta, hoparlörlerin kasa içindeki yerleşimiydi. Hoparlörleri, kasa geometrisine **sıfıra sıfır** oturacak ve diğer bileşenlere temas etmeyecek şekilde konumlandırdım. Bu hassas yerleşim sayesinde, kasa kapatıldığında ne ekrana bir baskı oluşuyor ne de tableti elde tutarken dışarıdan bir çıkıntı hissediliyordu. Ses kalitesi artarken, cihazın ergonomisi ve bütünlüğü korundu.
 
