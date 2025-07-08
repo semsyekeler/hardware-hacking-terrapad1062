@@ -9,7 +9,7 @@ To find the root of the problem, I followed a simple yet effective method: testi
 | **Level 1: Hardware Test with Linux Kernel** | **Level 2: Device Test with UEFI Firmware** |
 | :---: | :---: |
 | When I booted the system with a Linux Mint Live USB, the `GParted` application recognized the tablet's 64GB eMMC storage without any issues. I could partition and format it. This was clear and definitive proof that the storage chip was physically intact. | On the UEFI Shell screen, however, the `map -r` command, which lists devices, showed no entry (`blkX`) for the eMMC storage unit. This revealed that the tablet's own brain, the UEFI, could not recognize the physically sound memory at the hardware level. |
-| <img src="../assets/images/thumbnail_17477595295231327780041398629873.jpg.jpg" width="450"> | <img src="../assets/images/Outlook-qgcwu443.png" width="450"> |
+| <img src="../../assets/images/thumbnail_17477595295231327780041398629873.jpg.jpg" width="450"> | <img src="../../assets/images/Outlook-qgcwu443.png" width="450"> |
 | *GParted said the eMMC chip was alive. The problem wasn't hardware-related.* | *The `map -r` command proved that the UEFI couldn't see the same memory.* |
 
 **Final Diagnosis:** While these two tests might seem contradictory, they actually pinpointed the problem precisely: The issue was not with the eMMC chip itself, but with a corruption in the UEFI firmware or its NVRAM configuration. The failed installation had broken the software layer responsible for the device's own hardware recognition.
