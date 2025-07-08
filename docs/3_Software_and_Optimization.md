@@ -1,6 +1,4 @@
-# Bölüm III: Yazılım ve Optimizasyon
-
-[← Önceki Bölüm: Donanımsal Evrim](./2_Hardware_Evolution.md)
+ # Bölüm III: Yazılım ve Optimizasyon
 
 Donanım modifikasyonları tamamlandıktan sonraki aşama, bu donanıma en uygun yazılım ekosistemini kurmak ve onu verimli bir iş istasyonuna dönüştürmekti.
 
@@ -38,20 +36,22 @@ Bu donanımda en iyi çalışan ve tableti gerçek bir taşınabilir iş istasyo
   <i>Cihazın potansiyelini ortaya çıkaran hafif ve güçlü yazılımlar.</i>
 </p>
 
-## C. Günlük Kullanım Optimizasyonları ve İpuçları
+## C. Günlük Kullanım Optimizasyonları
 
 | YouTube Sorunu ve Çözümü | OneNote ve Kalem Çözümü |
 | :---: | :---: |
 | <img src="../assets/images/freetube.jpg" width="350"> | <img src="../assets/images/one%20note%20for%20windows%2010%20tablet%20dış%20çekim.jpg" width="350"> |
-| **Problem:** Tarayıcıdan YouTube izlemek, sürekli takılmalar ve ses/görüntü senkronizasyon sorunları yaratıyordu.<br><br> **Çözüm:** Tarayıcıyı aradan çıkaran **[FreeTube](https://freetubeapp.io/)** istemcisi kuruldu. Bu tek uygulama, **akıcı ve reklamsız bir deneyim** sunarak tabletin medya tüketim kabiliyetini tamamen değiştirdi. | **Problem:** Akıcı bir not alma uygulaması ve kalem eksikliği.<br><br> **Çözüm:** En hızlı versiyon olan `OneNote for Windows 10` (Microsoft Store) ile **[VirtualTablet](https://www.sunnysidesoft.com/virtualtablet/)** uygulaması birleştirildi. VirtualTablet, bir akıllı telefonu PC'ye bir grafik tablet gibi bağlayarak, telefonun kalemini OneNote'da kullanma imkanı sağladı. |
+| **Problem:** Tarayıcıdan YouTube izlemek, sürekli takılmalar, ses/görüntü kaymaları demekti. <br><br> **Çözüm:** Tarayıcıyı aradan çıkaran **[FreeTube](https://freetubeapp.io/)** istemcisi kuruldu. Bu tek uygulama, tabletin medya tüketim kabiliyetini tamamen değiştirdi ve sıfır takılma ile reklamsız, akıcı bir deneyim sağladı. | **Problem:** Akıcı bir not alma uygulaması ve kalem eksikliği. <br><br> **Çözüm:** En hızlı versiyon olan `OneNote for Windows 10` (Microsoft Store) ile **[VirtualTablet](https://www.sunnysidesoft.com/virtualtablet/)** uygulaması birleştirildi. VirtualTablet, telefonu bir grafik tablet olarak PC'ye bağlayarak, telefonun kalemini OneNote'da kullanmamı sağladı. |
 
 ### Tarayıcı Optimizasyonu ve Dokunmatik Ekran İpuçları
-*   **En Hızlı Tarayıcı:** Bu donanım için en iyi tarayıcıyı bulma arayışında, popüler tüm alternatifler test edildi. Testler sonucunda, en az sistem kaynağı tüketen ve en akıcı performansı sunan tarayıcının **Microsoft Edge** olduğu netleşti.
+*   **En Hızlı Tarayıcı:** Bu donanım için en iyi tarayıcıyı bulma arayışında, popüler tüm alternatifleri test ettim. Testler sonucunda, en az sistem kaynağı tüketen ve en akıcı performansı sunan tarayıcının **Microsoft Edge** olduğu netleşti.
+*   **Genel Medya Tüketimi:** Cihaz, YouTube haricinde, tarayıcı üzerinden film veya dizi izleme gibi video oynatma işlemlerinde herhangi bir sorun yaşatmamaktadır. Optimize edilmiş Edge tarayıcı, bu tür içerikleri akıcı bir şekilde oynatabilmektedir.
 *   **Chromium Tabanlı Tarayıcılarda Kritik Dokunmatik Sorunu ve Çözümü:**
     *   **Problem:** Chrome, Brave gibi tarayıcılarda, "yeni sekme aç" (+) butonuna dokunmatik olarak tıklandığında, sistem dokunuşun hassas konumunu yanlış yorumlayıp hemen yanındaki "sekmeyi kapat" (X) butonuna basılmış gibi algılıyordu.
-    *   **Çözüm:** Bu sorunu aşmak için, butona sadece dokunmak yerine, **her tıklamada kısa bir süre basılı tutmak** gerekiyor. Bu küçük gecikme, sistemin doğru konumu tanıması için yeterli zamanı tanıyor.
+    *   **Çözüm:** Bu sorunu aşmak için, butona sadece dokunmak yerine, **her tıklamada kısa bir süre basılı tutmak** gerekiyor. Bu küçük gecikme, sistemin doğru konumu doğru bir şekilde tanıması için yeterli zamanı tanıyor.
 
 Bu yazılımlar ve optimizasyonlar sayesinde tablet, donanımının getirdiği tüm dezavantajların aşıldığı, tam teşekküllü bir taşınabilir Windows sistemine dönüştü.
 
 ---
 **[Sıradaki Bölüm: Sınırların Ötesi - Yeni Yetenekler →](./4_Beyond_The_Limits.md)**
+
