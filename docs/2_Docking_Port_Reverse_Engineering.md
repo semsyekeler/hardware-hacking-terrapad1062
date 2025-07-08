@@ -1,6 +1,6 @@
 # Bölüm II: Docking Portu Tersine Mühendisliği
 
-Tablet hayata döndükten sonra, potansiyelini artırmak için yeni yollar aramaya başladım. Tabletin altındaki, orijinal klavyesi için tasarlanmış 5-pinli manyetik konnektör, bir genişleme portu potansiyeli taşıyordu.
+Tablet hayata döndükten sonra, potansiyelini artırmak için yeni yollar aramaya başladım. Tabletin altındaki, orijinal klavyesi için tasarlanmış 5-pinli manyetik pogo konnektör, bir genişleme portu potansiyeli taşıyordu.
 
 ## Görev: Pinlerin Haritasını Çıkarmak
 
