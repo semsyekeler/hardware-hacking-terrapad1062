@@ -49,7 +49,7 @@ Bu proje sadece bir onarım hikayesi değil, aynı zamanda yaratıcılıkla bir 
 
 ## ⚡ Senaryo 3: Mobil Mühendislik Laboratuvarı
 
-*   **Fikir:** Bir mühendis olarak, aklıma gelen bir devre fikrini veya bir bileşenin çalışma mantığını hızlıca test etme ihtiyacı duyabiliyorum.
+*   **Fikir:** Bir mühendis adayı olarak, aklıma gelen bir devre fikrini veya bir bileşenin çalışma mantığını hızlıca test etme ihtiyacı duyabiliyorum.
 *   **Zorluk:** Profesyonel simülasyon yazılımları genellikle güçlü masaüstü bilgisayarlar gerektirir.
 *   **Sürpriz Sonuç:** İnanır mısınız bilmem ama, bu projenin en şaşırtıcı sonuçlarından biri, normalde kaynak tüketimiyle bilinen profesyonel bir elektronik devre simülasyon programı olan **Proteus 8**'in bu tablette temel düzeyde de olsa akıcı bir şekilde çalışabilmesiydi.
 *   **Sonuç:** Bu, tableti, aklıma takılan bir devre fikrini kütüphanede veya bir kafede hızlıca kurup test edebileceğim bir "mobil laboratuvara" dönüştürdü.
