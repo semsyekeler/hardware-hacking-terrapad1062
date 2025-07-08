@@ -40,7 +40,7 @@ This project is not just a repair story; it's a testament to how versatile a dev
     3.  Go to your main computer's Display Settings, select the second monitor represented by the tablet, and change the "Display orientation" to "Portrait."
 
 <p align="center">
-  <img src="../assets/images/tablet_as_a_second_monitor.jpg" width="700">
+  <img src="../../assets/images/tablet_as_a_second_monitor.jpg" width="700">
 </p>
 <p align="center">
   <i>A setup that boosts productivity with a touch-enabled and vertical second screen for coding.</i>
