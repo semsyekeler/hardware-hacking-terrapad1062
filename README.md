@@ -1,8 +1,12 @@
 # Terra Pad 1062: Bir Donanım Geri Dönüşüm ve Modifikasyon Projesi
 
-<img src="./assets/images/guitar_and_tablet_close_photo.jpg" width="600">
+<p align="center">
+  <img src="./assets/images/guitar_and_tablet_close_photo.jpg" width="650">
+</p>
 
-*^Onarılıp modifiye edilen tablet, özel yapım bir AUX splitter ve FlexASIO sürücüleri ile gecikmesiz bir elektro gitar amfi prosesörüne dönüştürüldü.*
+| **Proje Sonucu: Çok Yönlü Bir Cihaz** |
+| :---: |
+| Onarılıp modifiye edilen tablet, özel yapım bir AUX splitter ve FlexASIO sürücüleri ile gecikmesiz bir **elektro gitar amfi prosesörüne** dönüştürüldü. |
 
 Bu depo, yazılımsal bir hata sonucu kullanılamaz hale gelen bir Terra Pad 1062 tabletin, sistematik arıza tespiti, onarımı ve bir dizi donanımsal/yazılımsal modifikasyonla modern, çok yönlü bir cihaza dönüştürülmesi sürecini adım adım belgelemektedir.
 
