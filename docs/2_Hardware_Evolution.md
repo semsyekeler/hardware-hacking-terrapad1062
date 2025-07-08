@@ -15,19 +15,19 @@ Bir cihazı onarmak onu standartlarına döndürür. Onu evrimleştirmek ise pot
 
 | **Pin Analizi** |
 | :---: |
-| Solda üreticinin sağladığı şema, sağda ise kendi ölçümlerimle doğruladığım pin yapısı. Sağdaki fotoğrafta ön taraf tabletin ekranını, arka taraf ise şasesini göstermektedir. |
+| Solda üreticinin sağladığı şema, sağda ise kendi ölçümlerimle doğruladığım pin yapısı. **Sağdaki fotoğrafta pinler, tabletin ön yüzü (ekran) size bakacak, arka yüzü (kapak) ise masaya gelecek şekilde konumlandırılmıştır. Tüm numaralandırma bu referans yöne göredir.** |
 
-### Deşifre Edilmiş Pin Yapısı (Soldan Sağa)
+### Pin Numaralandırması ve İşlevleri
 
-Analizler, portun aslında tam işlevli bir USB 2.0 portu barındırdığını kesinleştirdi:
+Analizler, portun aslında tam işlevli bir USB 2.0 portu barındırdığını kesinleştirdi. Pinler, yukarıda belirtilen referans yöne göre aşağıdaki gibidir:
 
-| Pin No | İşlevi                | Şema Karşılığı | Açıklama                                                                |
-| :----: | ------------------- | :------------: | ----------------------------------------------------------------------- |
-| **1**  | **+5V Güç**         |  `+V_5P0_KB`   | Harici aksesuarlara güç sağlar. USB standartlarına uygun.                 |
-| **2**  | **USB Data - (DN)** | `USB2_MODEM_DN`| Standart USB 2.0 negatif veri hattı.                                    |
-| **3**  | **USB Data + (DP)** | `USB2_MODEM_DP`| Standart USB 2.0 pozitif veri hattı.                                    |
-| **4**  | **Klavye Algılama** |    `KB_DET`    | Klavye takılı olup olmadığını algılar. Toprağa (GND) çekilince aktif olur. |
-| **5**  | **Toprak (GND)**    |     `GND`      | Devre için ortak referans topraklaması.                                   |
+| Pin Numarası | İşlevi                | Şema Karşılığı | Açıklama                                                                |
+| :----------: | ------------------- | :------------: | ----------------------------------------------------------------------- |
+| **1**        | **+5V Güç**         |  `+V_5P0_KB`   | Harici aksesuarlara güç sağlar. USB standartlarına uygun.                 |
+| **2**        | **USB Data - (DN)** | `USB2_MODEM_DN`| Standart USB 2.0 negatif veri hattı.                                    |
+| **3**        | **USB Data + (DP)** | `USB2_MODEM_DP`| Standart USB 2.0 pozitif veri hattı.                                    |
+| **4**        | **Klavye Algılama** |    `KB_DET`    | Klavye takılı olup olmadığını algılar. Harici klavye tarafından, **1k Ohm'luk bir direnç üzerinden** GND'ye (Pin 5) çekildiğinde aktif olur. |
+| **5**        | **Toprak (GND)**    |     `GND`      | Devre için ortak referans topraklaması.                                   |
 
 ## Modifikasyon 1: Ses Sistemi Yükseltmesi
 
@@ -47,7 +47,7 @@ Analizler, portun aslında tam işlevli bir USB 2.0 portu barındırdığını k
 
 *   **Problem:** Yaptığım özel USB soketinin metal pinleri, tabletin alüminyum şasesine temas ederek `KB_DET` (Klavye Algılama) pinini istem dışı olarak tetikliyor, bu da otomatik ekran döndürmeyi kilitliyordu.
 *   **Arıza Tespiti:** Birkaç gözlemden sonra sorunun kaynağını buldum: Yaptığım özel soketin lehimlenmiş metal pinleri, tabletin alüminyum şasesine temas ediyordu.
-*   **Çözüm:** Temas eden bölgeyi sıcak silikon ile tamamen yalıtarak bu sorunu kalıcı olarak çözdüm. Bu, özellikle metal kasalı cihazlarda yapılan modifikasyonlarda yalıtımın ne kadar kritik olduğunu gösteren bir tecrübe oldu.
+*   **Çözüm:** Temas eden bölgeyi sıcak silikon ile tamamen yalıtarak bu sorunu kalıcı olarak çözümledim. Bu, özellikle metal kasalı cihazlarda yapılan modifikasyonlarda yalıtımın ne kadar kritik olduğunu gösteren bir tecrübe oldu.
 
 ## Diğer Mekanik İyileştirmeler
 
