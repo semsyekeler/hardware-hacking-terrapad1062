@@ -34,7 +34,7 @@ Bu proje sadece bir onarım hikayesi değil, aynı zamanda yaratıcılıkla bir 
 *   **Pro İpucu:** Tableti dikey modda verimli kullanmak için izlenmesi gereken adımlar şunlardır: Önce tabletin kendi ayarlarından otomatik döndürmeyi kapatın. Ardından Space Desk ile bilgisayara bağlanın. Ekran yatay geldiğinde, ana bilgisayarınızın Görüntü Ayarları'ndan ikinci monitörün yönünü "Dikey" olarak seçin. Bu sayede dikey kodlama için mükemmel bir yardımcı ekranınız olur.
 
 <p align="center">
-  <img src="../assets/images/tablet_is_a_second_monitor.jpg" width="700">
+  <img src="../assets/images/tablet_as_a_second_monitor.jpg" width="700">
 </p>
 <p align="center">
   <i>Kodlama yaparken sağladığı dokunmatik ve dikey ikinci ekran alanı ile verimliliği artıran bir kurulum.</i>
