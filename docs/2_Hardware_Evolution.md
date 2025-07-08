@@ -5,21 +5,20 @@ Bir cihazı onarmak onu standartlarına döndürür. Onu evrimleştirmek ise pot
 ## Tersine Mühendislik: Docking Portunu Deşifre Etmek
 
 *   **Amaç:** Tabletin altındaki, orijinal klavyesi için tasarlanmış 5-pinli manyetik **Pogo-Pin konnektörünü** işlevsel bir porta dönüştürmek.
-*   **Yöntem:** Üreticiden alınan şema ve multimetre ölçümleriyle pin yapısı çözüldü ve portun tam işlevli bir USB 2.0 arayüzü barındırdığı doğrulandı.
+*   **Yöntem:** Üreticiden alınan şema (1. Fotoğraf) ve multimetre ölçümleriyle pin yapısı çözüldü ve kendi şemamı (2. Fotoğraf) oluşturdum. Portun tam işlevli bir USB 2.0 arayüzü barındırdığı doğrulandı.
 *   **Sonuç:** Bu bilgiyle, cihaza ergonomik ve gizli bir harici USB-A portu kazandıran özel bir adaptör yapıldı. Adaptör, tabletin iç girintisine tamamen gömülerek dışarıda kaba bir çıkıntı bırakmadı.
 
 <p float="left">
   <img src="../assets/images/thumbnail_pin_belegung_F1T.jpg" width="400" />
   <img src="../assets/images/pin%20diyagram%20tablet.png" width="400" /> 
 </p>
-
-| **Pin Analizi** |
-| :---: |
-| Solda üreticinin sağladığı şema, sağda ise kendi ölçümlerimle doğruladığım pin yapısı. **Sağdaki fotoğrafta pinler, tabletin ön yüzü (ekran) size bakacak, arka yüzü (kapak) ise masaya gelecek şekilde konumlandırılmıştır. Tüm numaralandırma bu referans yöne göredir.** |
+<p align="center">
+  <i>1. Fotoğraf: Üreticinin sağladığı orijinal şema.      2. Fotoğraf: Kendi ölçümlerimle doğruladığım pin yapısı.</i>
+</p>
 
 ### Pin Numaralandırması ve İşlevleri
 
-Analizler, portun aslında tam işlevli bir USB 2.0 portu barındırdığını kesinleştirdi. Pinler, yukarıda belirtilen referans yöne göre aşağıdaki gibidir:
+Analizler, portun aslında tam işlevli bir USB 2.0 portu barındırdığını kesinleştirdi. Pinler aşağıdaki gibidir:
 
 | Pin Numarası | İşlevi                | Şema Karşılığı | Açıklama                                                                |
 | :----------: | ------------------- | :------------: | ----------------------------------------------------------------------- |
@@ -38,10 +37,9 @@ Analizler, portun aslında tam işlevli bir USB 2.0 portu barındırdığını k
 <p align="center">
   <img src="../assets/images/hoparlor_lehimlerken.jpg" width="450">
 </p>
-
-| **Hoparlör Montajı** |
-| :---: |
-| Teneke seslere veda anı. Her milimetrenin hesabı yapıldı. |
+<p align="center">
+  <i>Teneke seslere veda anı. Her milimetrenin hesabı yapıldı.</i>
+</p>
 
 ## Modifikasyon 2: "Hayalet Klavye" Sorununun Çözümü
 
@@ -57,10 +55,9 @@ Analizler, portun aslında tam işlevli bir USB 2.0 portu barındırdığını k
 <p align="center">
   <img src="../assets/images/tablet%20modifiye%20edilmiş%20hal%20içi.png">
 </p>
-
-| **İç Düzen** |
-| :---: |
-| Tüm modifikasyonlar tamamlandıktan sonra tabletin iç düzeni. |
+<p align="center">
+  <i>Tüm modifikasyonlar tamamlandıktan sonra tabletin iç düzeni.</i>
+</p>
 
 ---
 **[Sıradaki Bölüm: Yazılım ve Optimizasyon →](./3_Software_and_Optimization.md)**
