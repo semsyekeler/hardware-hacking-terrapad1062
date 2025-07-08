@@ -54,9 +54,3 @@ Au-delà du succès technique du projet, les leçons tirées de ce parcours sur 
 
 Merci à **Dennis Sudermann** de Wortmann AG pour son aide précieuse au point de départ de ce projet.
 
----
-<div align="center">
-
-**[📥 Télécharger cette page (Fichier .md)](https://raw.githubusercontent.com/semsyekeler/hardware-hacking-terrapad1062-windows-tablet/main/docs/fr/README.md)** | **[📦 Télécharger le projet complet (.zip)](https://github.com/semsyekeler/hardware-hacking-terrapad1062-windows-tablet/archive/refs/heads/main.zip)**
-
-</div>
