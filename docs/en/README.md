@@ -20,16 +20,16 @@ This guide is designed as a technical reference for those who own similar device
 
 This project chronicles the rebirth of a device in 5 main chapters:
 
-### **[Chapter I: Repair and Resurrection](./docs/en/1_Repair_and_Resurrection.md)**
+### **[Chapter I: Repair and Resurrection](../../docs/en/1_Repair_and_Resurrection.md)**
 The evidence-based diagnosis of the UEFI/BIOS error that bricked the device and the process of re-flashing the BIOS, overcoming the limitation of a single USB port.
 
-### **[Chapter II: Hardware Evolution](./docs/en/2_Hardware_Evolution.md)**
+### **[Chapter II: Hardware Evolution](../../docs/en/2_Hardware_Evolution.md)**
 Reverse-engineering the device's original 5-pin Pogo-Pin port to convert it into a USB port, upgrading the audio system, and other mechanical improvements.
 
-### **[Chapter III: Software and Optimization](./docs/en/3_Software_and_Optimization.md)**
+### **[Chapter III: Software and Optimization](../../docs/en/3_Software_and_Optimization.md)**
 The decision to stick with Windows 10 after Linux adventures and the critical software choices that ensure a smooth experience on low-power hardware.
 
-### **[Chapter IV: Beyond the Limits - New Capabilities](./docs/en/4_Beyond_The_Limits.md)**
+### **[Chapter IV: Beyond the Limits - New Capabilities](../../docs/en/4_Beyond_The_Limits.md)**
 The new tools the repaired tablet has become:
 *   **Portable Office:** Fluent e-mail, PDF reading/editing, and web browsing.
 *   **Media Center:** An excellent movie/series viewing experience with its quality screen and upgraded sound system.
