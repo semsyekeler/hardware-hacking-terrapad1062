@@ -24,7 +24,7 @@ Bu proje, bir cihazın yeniden doğuşunu anlatan 4 ana bölümden oluşmaktadı
 Cihazı kullanılamaz hale getiren UEFI/BIOS hatasının kanıta dayalı tespiti ve tek bir USB portu kısıtlamasıyla BIOS'un yeniden flash'lanması.
 
 ### **[Bölüm II: Donanımsal Evrim](./docs/2_Hardware_Evolution.md)**
-Cihazın orijinal 5-pinli Pogo-Pin portunun tersine mühendislikle USB portuna dönüştürülmesi, ses sisteminin yükseltilmesi ve diğer mekanik iyileştirmeler.
+Cihazın orijinal 5-pinli Pogo-Pin portunun tersine mühendislikle USB portuna dönüştürülmesi, ses sisteminin yükseltilmesi ve "Hayalet Klavye" gibi gizemli donanım sorunlarının çözümü.
 
 ### **[Bölüm III: Yazılım ve Optimizasyon](./docs/3_Software_and_Optimization.md)**
 Linux maceralarından sonra Windows 10'da karar kılınması ve düşük güçlü donanımda akıcı bir deneyim sağlayan kritik yazılım seçimleri.
