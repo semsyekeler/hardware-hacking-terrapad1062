@@ -58,9 +58,3 @@ J'espère que ce guide vous inspirera pour vos propres projets. Merci de votre l
 
  **[← Chapitre Précédent : Logiciel et Optimisation](./3_Logiciel_et_Optimisation.md)|[Chapitre Suivant : Conclusion et Acquis du Projet →](./5_Conclusion_et_Acquis.md)**
 
----
-<div align="center">
-
-**[📥 Télécharger cette page (Fichier .md)](https://raw.githubusercontent.com/semsyekeler/hardware-hacking-terrapad1062-windows-tablet/main/docs/fr/4_Au-dela_des_Limites.md)** | **[📦 Télécharger le projet complet (.zip)](https://github.com/semsyekeler/hardware-hacking-terrapad1062-windows-tablet/archive/refs/heads/main.zip)**
-
-</div>
