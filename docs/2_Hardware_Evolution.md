@@ -10,10 +10,10 @@ Bu bölümde, cihazın standart yeteneklerinin ötesine taşınmasını sağlaya
 
 <p float="left">
   <img src="../assets/images/thumbnail_pin_belegung_F1T.jpg" width="400" />
-  <img src="../assets/images/pin%20diyagram%20tablet.png" width="400" /> 
+  <img src="../assets/images/pin%20diyagram%20tablet.png" width="400" />
 </p>
 <p align="center">
-  <i>1. Fotoğraf: Üreticinin sağladığı orijinal şema.      2. Fotoğraf: Kendi ölçümlerimle doğruladığım pin yapısı. (Ön taraf ekran, arka taraf kapak)</i>
+  <i>1. Fotoğraf: Üreticinin sağladığı orijinal şema. &nbsp;&nbsp;&nbsp;&nbsp; 2. Fotoğraf: Kendi ölçümlerimle doğruladığım pin yapısı. (Ön taraf ekran, arka taraf kapak)</i>
 </p>
 
 ### Pin Numaralandırması ve İşlevleri
@@ -28,6 +28,38 @@ Analizler sonucunda elde edilen pin konfigürasyonu aşağıdaki gibidir:
 | **4**        | **Klavye Algılama** |    `KB_DET`    | Klavye takılı olup olmadığını algılar. Harici klavye tarafından, **1k Ohm'luk bir direnç üzerinden** GND'ye (Pin 5) çekilerek aktif olur. |
 | **5**        | **Toprak (GND)**    |     `GND`      | Devre için ortak referans topraklaması.                                   |
 
+<p align="center">
+  <img src="../assets/images/tablete%20bağlanan%20usb%20dişi%20kısım.jpg" width="450">
+</p>
+<p align="center">
+  <i>Tersine mühendislik ile elde edilen bilgilere göre tasarlanan özel USB soketi.</i>
+</p>
+
+## Modifikasyonlara Başlamadan Önce: Kasanın Açılması
+
+**UYARI:** Bu işlemler tecrübe gerektirir. Cihazınıza kalıcı hasar verebilir ve garantiyi geçersiz kılabilirsiniz. Tüm sorumluluk size aittir.
+
+*   **Gerekli Aletler:**
+    *   Torx T4 tornavida ucu
+    *   Plastik pena veya eski bir banka kartı gibi ince ve esnek bir kanırtma aleti
+
+*   **Sökme Talimatları:**
+    1.  **Doğru Vidaları Sökün:** Arka kapaktaki **tüm vidaları** sökün. Bunlar kickstand üzerindeki siyah vidalar ve alt kısımdaki beyaz/gümüş renkli vidalardır.
+    2.  **KRİTİK UYARI:** Kickstand'ın doğrudan tabletin metal kasasına bağlandığı menteşe vidalarına **kesinlikle dokunmayın!** Bu vidaların sökülmesi, cihazın montajını zorlaştırır ve gereksiz bir işlemdir.
+    3.  **Kapağı Ayırın:** Tüm vidalar söküldükten sonra, kasa ile arka kapak arasına plastik penayı dikkatlice sokun ve tırnakları yavaşça attırarak kapağı ayırın.
+
+<p align="center">
+  <img src="../assets/images/tablet%20kasa.jpg" width="700">
+</p>
+<p align="center">
+  <i>Sökme işlemi: Kickstand'ın menteşeye bağlı vidaları (3x2 adet siyah olan) ve altında kalan (gümüş renk 4 vida)  sökülecek,</i>
+</p>
+
+*   **Montaj İpuçları:**
+    *   Mıknatıslı kısımlara yakın olan alt vidaları takarken, manyetik çekim nedeniyle vida yuvadan kayabilir. Vidayı parmağınızla hizalayarak kılavuzluk yapmanız gerekebilir.
+    *   Ribbon (şerit) kablolara son derece hassas davranın; kolayca kopabilirler.
+    *   İşlem yaparken vidaların veya metal aletlerin anakart üzerindeki SMD bileşenlere temas ederek kısa devre yapmamasına özen gösterin.
+
 ## Modifikasyon 1: Ses Sistemi Yükseltmesi
 
 *   **Problem:** Cihazın orijinal hoparlörleri, özellikle konuşma içeren içeriklerde yetersiz ve tiz bir ses karakteristiği sergiliyordu.
@@ -38,18 +70,18 @@ Analizler sonucunda elde edilen pin konfigürasyonu aşağıdaki gibidir:
   <img src="../assets/images/hoparlor_lehimlerken.jpg" width="450">
 </p>
 <p align="center">
-  <i>Hoparlör montajı.</i>
+  <i>Eski laptop hoparlörünün montajı.</i>
 </p>
 
 ## Modifikasyon 2: "Hayalet Klavye" Sorununun Çözümü
 
-*   **Problem:** Yapılan özel USB soketinin metal pinlerinin, tabletin alüminyum şasesine temas etmesi sonucu `KB_DET` (Klavye Algılama) pini istem dışı olarak tetikleniyor, bu da otomatik ekran döndürme gibi işlevleri kilitliyordu.
-*   **Çözüm:** Temas eden bölge, sıcak silikon kullanılarak elektriksel olarak yalıtıldı ve sorun kalıcı olarak giderildi.
+*   **Problem:** Yapılan özel USB soketinin metal pinlerinin, tabletin alüminyum şasesine temas etmesi sonucu `KB_DET` (Klavye Algılama) pini istem dışı olarak tetikleniyor, bu da otomatik ekran döndürme gibi işlevleri kilitliyordu. Bataryayı söküp takmak sorunu geçici olarak çözse de temas devam ettiği için hata tekrarlıyordu.
+*   **Çözüm:** Temas eden bölge, yalıtkan olan sıcak silikon kullanılarak elektriksel olarak izole edildi ve sorun kalıcı olarak giderildi.
 
 ## Diğer Mekanik İyileştirmeler
 
-*   **Kamera Lensi Değişimi:** Çizik olan orijinal kamera lensi, eski bir laptoptan alınan sağlam bir lens ile değiştirildi.
-*   **Şase Gıcırdamasının Giderilmesi:** Kasanın esneyen noktalarına iç kısımdan destek parçaları eklenerek mekanik stabilite artırıldı ve gıcırdama sesi engellendi.
+*   **Kamera Lensi Değişimi:** Çizik olan orijinal kamera lensi, eski bir laptoptan şasesi kırılarak dikkatlice ayrılan sağlam bir lens ile değiştirildi. Lensin orijinal yapışkanı korunarak montaj yapıldı.
+*   **Şase Gıcırdamasının Giderilmesi:** Kasanın esneyen noktalarına iç kısımdan, içe göçmeyi engelleyecek destek parçaları eklenerek mekanik stabilite artırıldı ve gıcırdama sesi tamamen engellendi.
 
 <p align="center">
   <img src="../assets/images/tablet%20modifiye%20edilmiş%20hal%20içi.png">
@@ -59,4 +91,4 @@ Analizler sonucunda elde edilen pin konfigürasyonu aşağıdaki gibidir:
 </p>
 
 ---
-**[Sıradaki Bölüm: Yazılım ve Optimizasyon →](./3_Software_and_Optimization.md)**
+**[← Önceki Bölüm: Onarım ve Diriliş](./1_Repair_and_Resurrection.md) | [Sıradaki Bölüm: Yazılım ve Optimizasyon →](./3_Software_and_Optimization.md)**
