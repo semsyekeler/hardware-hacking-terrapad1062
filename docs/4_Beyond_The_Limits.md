@@ -17,19 +17,25 @@ Bu proje sadece bir onarım hikayesi değil, aynı zamanda yaratıcılıkla bir 
 
 ## Senaryo 2: Gecikmesiz Elektro Gitar Amfi Prosesörü
 
-*   **Problem:** Bir elektro gitarı doğrudan bir bilgisayara bağladığınızda, Windows'un kendi ses sürücülerinin yarattığı yüksek gecikme (latency) nedeniyle çalmak imkansız hale gelir. ASIO4ALL gibi standart çözümler ise her zaman en iyi sonucu vermez.
+*   **Problem:** Bir elektro gitarı doğrudan bir bilgisayara bağladığınızda, Windows'un kendi ses sürücülerinin yarattığı yüksek gecikme (latency) nedeniyle çalmak imkansız hale gelir.
 *   **Çözüm:**
     1.  **Donanım:** Bir ucu gitar girişi (kırmızı), diğer ucu kulaklık/hoparlör çıkışı olan özel yapım bir **AUX splitter** aparatı hazırladım. Bu aparat, gitar sinyalini mikrofona, dinleme sesini ise kulaklığa doğru yönlendirir.
-    2.  **Yazılım (Sürücü):** Windows'un yavaş sürücülerini baypas eden ve çok daha düşük gecikme sunan **[FlexASIO](https://github.com/dechamps/FlexASIO)** sürücüsünü kurdum. Bu, standart ASIO4ALL sürücüsüne göre daha esnek ve donanımı daha iyi tespit eden bir alternatiftir.
+    2.  **Yazılım (Sürücü):** Standart ASIO4ALL sürücüsü yerine, çok daha esnek ve donanımı daha iyi tespit edebilen **[FlexASIO](https://github.com/dechamps/FlexASIO)** sürücüsünü kurdum. FlexASIO'nun GUI (Grafiksel Kullanıcı Arayüzü) aracı, ses giriş ve çıkışlarını kolayca yönetme imkanı tanır.
     3.  **Yazılım (Prosesör):** **Guitar Rig 7** programı ile, tableti tam teşekküllü bir amfi ve efekt prosesörüne dönüştürdüm.
 *   **Sonuç:** Bu kurulum sayesinde, sıfıra yakın bir gecikmeyle, tabletimi kullanarak elektro gitarıma sayısız ton ve efekt katabiliyorum. Windows tabanlı olmasının getirdiği bu esneklik, tableti bir müzik aletine dönüştürdü.
 
-<p float="left">
-  <img src="../assets/images/aux_splitter_gitar_and_speaker.jpg" width="350" />
-  <img src="../assets/images/guitar_and_tablet_setup_birdwiev_photo.jpg" width="350" /> 
+<p align="center">
+  <img src="../assets/images/aux_splitter_gitar_and_speaker.jpg" width="400">
 </p>
 <p align="center">
-  <i>1. Fotoğraf: Özel yapım AUX splitter (kırmızı uç gitar girişi).      2. Fotoğraf: Tüm sistemin çalışır hali.</i>
+  <i>1. Fotoğraf: Özel yapım AUX splitter (kırmızı uç gitar girişi).</i>
+</p>
+
+<p align="center">
+  <img src="../assets/images/guitar_and_tablet_setup_birdview_photo.jpg" width="750">
+</p>
+<p align="center">
+  <i>2. Fotoğraf: Tablet, gitar, kulaklık ve splitter ile tüm sistemin çalışır hali.</i>
 </p>
 
 ## Senaryo 3: Beklenmedik Yazılımlar
