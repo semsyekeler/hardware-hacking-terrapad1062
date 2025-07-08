@@ -1,7 +1,7 @@
 # Terra Pad 1062: A Hardware Upcycling and Modification Project
 
 <p align="center">
-  <img src="../assets/images/guitar_and_tablet_close_photo.jpg" width="650">
+  <img src="../../assets/images/guitar_and_tablet_close_photo.jpg" width="650">
 </p>
 
 | **Project Summary** |
