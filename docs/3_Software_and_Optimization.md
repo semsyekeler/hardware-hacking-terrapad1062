@@ -10,13 +10,6 @@ Donanım modifikasyonları tamamlandıktan sonraki aşama, bu donanıma en uygun
     *   **Debian (Net Install) Denemesi:** Çift işletim sistemi amacıyla, mümkün olan en minimal Debian kurulumunu yaptım. Hedefim, medya tüketimi için ultra hafif bir Linux ortamı yaratmaktı. Ancak sonuç, Windows 10'a kıyasla son derece yavaş, hantal ve tabletin donanım özelliklerinden uzak, adeta bir işkenceye dönüşen bir deneyim oldu.
 *   **Nihai Karar:** Yapılan testler, bu özel donanım kombinasyonu için en stabil, uyumlu ve performanslı platformun **Windows 10** olduğunu kesinleştirdi. Özellikle dokunmatik ekran, kalem ve sensör sürücüleri konusundaki sorunsuz entegrasyon belirleyici oldu.
 
-<p align="center">
-  <img src="../assets/images/debian%20net%20install%20kde%20plasma%20denerken%20kod%20ekrani%20açık.jpg" width="550">
-</p>
-<p align="center">
-  <i>Linux dünyasındaki sayısız denemeden sadece biri. Her dağıtım, donanım uyumluluğu konusunda farklı bir sınav verdi.</i>
-</p>
-
 ## B. Kritik Yazılım Seçimleri: Hız ve Stabilite
 
 Bu donanımda en iyi çalışan ve tableti gerçek bir taşınabilir iş istasyonuna dönüştüren, **hızlı açılan ve stabil kullanım sağlayan** yazılımlar şunlar oldu:
@@ -28,13 +21,6 @@ Bu donanımda en iyi çalışan ve tableti gerçek bir taşınabilir iş istasyo
 | **Ofis** | **SoftMaker FreeOffice** | Microsoft Office'e en hızlı ve en hafif alternatif. Word, Excel ve PowerPoint dosyalarını şaşırtıcı bir hızla açıyor ve düzenliyor. <br> *[Resmi Web Sitesi](https://www.freeoffice.com/en/)* |
 | **E-Posta**| **Wino Mail** | Modern ve temiz arayüzünü, sistem kaynaklarını tüketmeyen hafif bir yapıyla birleştiriyor. <br> *[Microsoft Store](https://apps.microsoft.com/detail/9ncrcvjc50wl?hl=en-us&gl=us)* |
 | **Uzak Masaüstü**| **Parsec** | Düşük gecikmeli teknolojisi sayesinde ana bilgisayara uzaktan bağlanarak ağır işleri bile bu tablet üzerinden akıcı bir şekilde yapma imkanı tanır. <br> *[Resmi Web Sitesi](https://parsec.app/)* |
-
-<p align="center">
-  <img src="../assets/images/programs.jpg" width="700">
-</p>
-<p align="center">
-  <i>Cihazın potansiyelini ortaya çıkaran hafif ve güçlü yazılımlar.</i>
-</p>
 
 ## C. Günlük Kullanım Optimizasyonları
 
@@ -50,7 +36,9 @@ Bu donanımda en iyi çalışan ve tableti gerçek bir taşınabilir iş istasyo
     *   **Problem:** Chrome, Brave gibi tarayıcılarda, "yeni sekme aç" (+) butonuna dokunmatik olarak tıklandığında, sistem dokunuşun hassas konumunu yanlış yorumlayıp hemen yanındaki "sekmeyi kapat" (X) butonuna basılmış gibi algılıyordu.
     *   **Çözüm:** Bu sorunu aşmak için, butona sadece dokunmak yerine, **her tıklamada kısa bir süre basılı tutmak** gerekiyor. Bu küçük gecikme, sistemin doğru konumu doğru bir şekilde tanıması için yeterli zamanı tanıyor.
 
-Bu yazılımlar ve optimizasyonlar sayesinde tablet, donanımının getirdiği tüm dezavantajların aşıldığı, tam teşekküllü bir taşınabilir Windows sistemine dönüştü.
-
 ---
-**[Sıradaki Bölüm: Sınırların Ötesi - Yeni Yetenekler →](./4_Beyond_The_Limits.md)**
+<p align="center">
+  <strong><a href="./2_Hardware_Evolution.md">← Önceki Bölüm: Donanımsal Evrim</a></strong>
+  <span style="padding: 0 20px;">|</span>
+  <strong><a href="./4_Beyond_The_Limits.md">Sıradaki Bölüm: Sınırların Ötesi →</a></strong>
+</p>
