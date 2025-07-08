@@ -2,7 +2,9 @@
 
 <div align="center">
 
-**Languages:** 🇺🇸 English | <a href="./docs/tr/README.md">🇹🇷 Türkçe</a>
+**Languages**
+
+🇺🇸 English | <a href="./docs/tr/README.md">🇹🇷 Türkçe</a> | <a href="./docs/de/README.md">🇩🇪 Deutsch</a> | <a href="./docs/es/README.md">🇪🇸 Español</a> | <a href="./docs/fr/README.md">🇫🇷 Français</a> | <a href="./docs/ru/README.md">🇷🇺 Русский</a> | <a href="./docs/cn/README.md">🇨🇳 中文</a>
 
 </div>
 
