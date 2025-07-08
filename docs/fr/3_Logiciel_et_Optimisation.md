@@ -55,9 +55,3 @@ Grâce à ces logiciels et optimisations, la tablette a surmonté tous les incon
 ---
 **[← Chapitre Précédent : Évolution Matérielle](./2_Evolution_Materielle.md) | [Chapitre Suivant : Au-delà des Limites - Nouvelles Capacités →](./4_Au-dela_des_Limites.md)**
 
----
-<div align="center">
-
-**[📥 Télécharger cette page (Fichier .md)](https://raw.githubusercontent.com/semsyekeler/hardware-hacking-terrapad1062-windows-tablet/main/docs/fr/3_Logiciel_et_Optimisation.md)** | **[📦 Télécharger le projet complet (.zip)](https://github.com/semsyekeler/hardware-hacking-terrapad1062-windows-tablet/archive/refs/heads/main.zip)**
-
-</div>
