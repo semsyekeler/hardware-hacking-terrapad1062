@@ -9,8 +9,8 @@ This chapter details the hardware modifications and improvements that pushed the
 *   **Result:** With the information obtained, a custom adapter was fabricated to provide the device with an external USB-A port. The adapter was designed to fit perfectly into the tablet's internal recess, maintaining ergonomic integrity.
 
 <p float="left">
-  <img src="../assets/images/thumbnail_pin_belegung_F1T.jpg" width="400" />
-  <img src="../assets/images/pin%20diyagram%20tablet.png" width="400" />
+  <img src="../../assets/images/thumbnail_pin_belegung_F1T.jpg" width="400" />
+  <img src="../../assets/images/pin%20diyagram%20tablet.png" width="400" />
 </p>
 <p align="center">
   <i>Photo 1: The original schematic provided by the manufacturer. &nbsp;&nbsp;&nbsp;&nbsp; Photo 2: The pinout I verified with my own measurements. (Front is screen, back is cover)</i>
@@ -49,7 +49,7 @@ The pin configuration derived from the analysis is as follows:
     3.  **Separate the Cover:** Once all screws are removed, carefully insert the plastic pick between the chassis and the back cover and gently pry to release the clips, separating the cover.
 
 <p align="center">
-  <img src="../assets/images/tablet%20kasa.jpg" width="700">
+  <img src="../../assets/images/tablet%20kasa.jpg" width="700">
 </p>
 <p align="center">
   <i>Disassembly: The screws connecting the kickstand to the hinge (3x2 black ones) and the ones underneath (4 silver screws) are to be removed.</i>
@@ -67,7 +67,7 @@ The pin configuration derived from the analysis is as follows:
 *   **Engineering Detail:** The speaker wires were routed through the tablet's original speaker grilles. The speakers were positioned to fit perfectly within the case geometry, preserving the device's ergonomics and physical integrity. This resulted in a significant improvement in sound quality.
 
 <p align="center">
-  <img src="../assets/images/hoparlor_lehimlerken.jpg" width="450">
+  <img src="../../assets/images/hoparlor_lehimlerken.jpg" width="450">
 </p>
 <p align="center">
   <i>Mounting the old laptop speaker.</i>
@@ -84,7 +84,7 @@ The pin configuration derived from the analysis is as follows:
 *   **Chassis Creak Elimination:** Support pieces were added to the inside of the case at points where it flexed, preventing it from collapsing inward. This increased mechanical stability and completely eliminated the creaking sound.
 
 <p align="center">
-  <img src="../assets/images/tablet%20modifiye%20edilmiş%20hal%20içi.png">
+  <img src="../../assets/images/tablet%20modifiye%20edilmiş%20hal%20içi.png">
 </p>
 <p align="center">
   <i>The internal layout of the tablet after all modifications were completed.</i>
