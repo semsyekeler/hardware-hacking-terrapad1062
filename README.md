@@ -1,8 +1,8 @@
-# Terra Pad 1062 Windows Tablet - Kapsamlı Onarım ve Modifikasyon Rehberi
+# Terra Pad 1062: Bir Donanım Geri Dönüşümü ve Modifikasyon Projesi
 
-![Projenin Kapak Fotoğrafı](./assets/images/one%20note%20for%20windows%2010%20tablet%20dış%20çekim.jpg)
+![Projenin Kapak Fotoğrafı](./assets/images/guitar_and_tablet_close_photo.jpg)
 
-Bu depo, yazılımsal bir hata sonucu kullanılamaz hale gelen bir Terra Pad 1062 tabletin, sistematik arıza tespiti, onarımı ve bir dizi donanımsal/yazılımsal modifikasyonla modern bir cihaza dönüştürülmesi sürecini adım adım belgelemektedir.
+Bu depo, elektronik bir enkazın, bilgi, inat ve bir tutam mühendislikle nasıl yeniden hayata döndürüldüğünün ve sınırlarının ötesine taşındığının günlüğüdür. Başlangıçta yazılımsal bir hatayla "tuğla" olan bir Terra Pad 1062 tabletin, adım adım analiz edilerek, onarılarak ve modifiye edilerek nasıl modern, çok yönlü ve kişisel bir cihaza dönüştürüldüğünü belgelemektedir.
 
 Bu rehber, benzer cihazlara sahip olan veya donanım modifikasyon projelerine ilgi duyanlar için teknik bir başvuru kaynağı olarak tasarlanmıştır.
 
@@ -10,38 +10,28 @@ Bu rehber, benzer cihazlara sahip olan veya donanım modifikasyon projelerine il
 
 ---
 
-## Proje İçeriği
+## Projenin Bölümleri
 
-1.  **[Bölüm I: UEFI/BIOS Onarımı](./docs/1_BIOS_Repair.md)**
-    *   Başarısız bir OS kurulumu sonrası ortaya çıkan eMMC tanıma hatasının analizi ve kanıta dayalı teşhisi.
-    *   Üretici desteği ile BIOS'un yeniden flash'lanması ve tek USB portu kısıtlamasının özel bir yöntemle aşılması.
+Bu proje, bir cihazın yeniden doğuşunu anlatan 4 ana bölümden oluşmaktadır:
 
-2.  **[Bölüm II: Docking Portu Tersine Mühendisliği](./docs/2_Docking_Port_Reverse_Engineering.md)**
-    *   5-pinli Pogo-Pin konnektörünün pin analizi, şeması ve tam işlevli bir USB 2.0 portuna dönüştürülmesi.
-    *   Bu portu kullanarak özel harici USB-A adaptörü yapımı.
+1.  **[Bölüm I: Onarım ve Diriliş](./docs/1_Repair_and_Resurrection.md)**
+    *   Cihazı kullanılamaz hale getiren UEFI/BIOS hatasının kanıta dayalı tespiti.
+    *   Tek bir USB portu kısıtlamasının özel bir yöntemle aşılarak BIOS'un yeniden flash'lanması.
 
-3.  **[Bölüm III: Donanımsal Evrim](./docs/3_Hardware_Evolution.md)**
+2.  **[Bölüm II: Donanımsal Evrim](./docs/2_Hardware_Evolution.md)**
+    *   Cihazın orijinal Pogo-Pin portunun tersine mühendislikle USB portuna dönüştürülmesi.
     *   Ses kalitesini artıran ve kasa geometrisine kusursuz oturan laptop hoparlörü montajı.
-    *   Gizemli "Hayalet Klavye" sorununun tespiti ve yalıtımla kalıcı olarak çözümü.
-    *   Çizik kamera lensinin değiştirilmesi ve şase gıcırdama sorununun giderilmesi gibi diğer mekanik iyileştirmeler.
+    *   "Hayalet Klavye" gibi gizemli donanım hatalarının çözümü ve diğer mekanik iyileştirmeler.
 
-4.  **[Bölüm IV: Yazılım Optimizasyonu](./docs/4_Software_Optimization.md)**
-    *   Düşük güçlü Intel Atom işlemcide akıcı 1080p video oynatımını mümkün kılan FreeTube gibi kritik yazılım seçimleri.
-    *   Linux dağıtımları ile yapılan uyumluluk testleri ve nihai işletim sistemi kararı.
+3.  **[Bölüm III: Yazılım ve Optimizasyon](./docs/3_Software_and_Optimization.md)**
+    *   İşletim sistemi arayışı: Linux maceraları ve Windows 10'un neden en iyi seçenek olduğunun analizi.
+    *   Düşük güçlü donanımda akıcı bir deneyim sağlayan kritik yazılım seçimleri ve optimizasyon ipuçları.
 
-## Gerekli Aletler ve Ekipmanlar
-*   Torx T4 Tornavida Ucu
-*   Plastik Pena veya Eski Banka Kartı (Kasayı açmak için)
-*   Multimetre (Pin analizi için)
-*   Havya ve Lehim (Hoparlör ve adaptör modifikasyonları için)
-*   Sıcak Silikon Tabancası (Yalıtım için)
-
----
-
-## Ek Notlar ve Bilinen Kısıtlamalar
-
-*   **Stylus Kalem:** Wortmann AG'nin artık bu modelin orijinal tedarikçisi ile çalışmaması nedeniyle, cihazla uyumlu aktif bir stylus kalem bulmak neredeyse imkansızdır. Bu konuda resmi destek sunulamamaktadır.
+4.  **[Bölüm IV: Sınırların Ötesi - Kullanım Senaryoları](./docs/4_Beyond_The_Limits.md)**
+    *   Tabletin, Space Desk ile taşınabilir bir kodlama monitörüne dönüştürülmesi.
+    *   Özel yapım bir AUX splitter ve FlexASIO sürücüleri ile gecikmesiz bir elektro gitar amfi prosesörü olarak kullanılması.
+    *   Proteus 8 gibi şaşırtıcı derecede ağır yazılımları bile çalıştırabilme potansiyeli.
 
 ## Teşekkür
 
-Bu projenin başlangıç noktasındaki değerli yardımlarından ve hızlı geri dönüşlerinden dolayı Wortmann AG'den **Dennis Sudermann**'a teşekkürler.
+Bu projenin başlangıç noktasındaki değerli yardımlarından dolayı Wortmann AG'den **Dennis Sudermann**'a teşekkürler.
