@@ -34,7 +34,7 @@ Onarılan tabletin dönüştüğü araçlar:
 *   **Taşınabilir Ofis:** E-posta, PDF okuma/düzenleme ve web'de akıcı gezinme.
 *   **Medya Merkezi:** Kaliteli ekranı ve yükseltilmiş ses sistemiyle mükemmel film/dizi izleme deneyimi.
 *   **Kablosuz Kodlama Monitörü:** Space Desk ile kablosuz ve dokunmatik bir ikinci ekran.
-*   **Taşınabilir Gitar Stüdyosu:** Özel donanım ve FlexASIO ile gecikmesiz ve uygun maliyetli bir müzik stüdyosu.
+*   **Taşınabilir Gitar Prosesörü:** Özel donanım ve FlexASIO ile gecikmesiz ve uygun maliyetli bir müzik stüdyosu.
 *   **Mobil Mühendislik İstasyonu:** Proteus gibi ağır yazılımları bile çalıştırabilen bir sistem.
 
 ---
