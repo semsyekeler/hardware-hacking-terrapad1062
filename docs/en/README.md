@@ -37,7 +37,7 @@ The new tools the repaired tablet has become:
 *   **Guitar Amp Processor:** A latency-free and far cheaper music studio with custom hardware and FlexASIO.
 *   **Mobile Engineering Station:** A system capable of running even heavy software like Proteus.
 
-### **[Chapter V: Conclusion and Takeaways](./docs/en/5_Conclusion_and_Takeaways.md)**
+### **[Chapter V: Conclusion and Takeaways](../../docs/en/5_Conclusion_and_Takeaways.md)**
 Beyond the technical success of the project, this section covers the value this journey added to my problem-solving skills, perspective, and project documentation discipline.
 
 ---
