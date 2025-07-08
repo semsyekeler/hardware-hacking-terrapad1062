@@ -4,9 +4,9 @@
   <img src="./assets/images/guitar_and_tablet_close_photo.jpg" width="650">
 </p>
 
-| **Proje Sonucu: Çok Yönlü Bir Cihaz** |
+| **Proje Özeti** |
 | :---: |
-| Onarılıp modifiye edilen tablet, özel yapım bir AUX splitter ve FlexASIO sürücüleri ile gecikmesiz bir **elektro gitar amfi prosesörüne** dönüştürüldü. |
+| Bu proje, atıl durumdaki bir Windows tabletin onarılıp, donanım ve yazılım katmanlarında modifiye edilerek nasıl çok amaçlı, taşınabilir ve maliyet-etkin bir cihaza dönüştürüldüğünü belgelemektedir. Sonuç, piyasadaki birçok niş üründen daha yetenekli; **ofis işleri, web'de gezinme, PDF okuma/düzenleme ve medya tüketimi** gibi günlük görevleri mükemmel bir şekilde yerine getiren, aynı zamanda **gitar prosesörü** ve **mobil mühendislik istasyonu** gibi özel görevleri de üstlenebilen kişisel bir iş istasyonudur. |
 
 Bu depo, yazılımsal bir hata sonucu kullanılamaz hale gelen bir Terra Pad 1062 tabletin, sistematik arıza tespiti, onarımı ve bir dizi donanımsal/yazılımsal modifikasyonla modern, çok yönlü bir cihaza dönüştürülmesi sürecini adım adım belgelemektedir.
 
@@ -31,9 +31,11 @@ Linux maceralarından sonra Windows 10'da karar kılınması ve düşük güçl�
 
 ### **[Bölüm IV: Sınırların Ötesi - Yeni Yetenekler](./docs/4_Beyond_The_Limits.md)**
 Onarılan tabletin dönüştüğü araçlar:
+*   **Taşınabilir Ofis:** E-posta, PDF okuma/düzenleme ve web'de akıcı gezinme.
+*   **Medya Merkezi:** Kaliteli ekranı ve yükseltilmiş ses sistemiyle mükemmel film/dizi izleme deneyimi.
 *   **Taşınabilir İkinci Ekran:** Space Desk ile kablosuz bir kodlama monitörü.
-*   **Gitar Amfi Prosesörü:** Özel donanım ve FlexASIO ile gecikmesiz bir müzik stüdyosu.
-*   **Mobil İş İstasyonu:** Proteus gibi ağır yazılımları bile çalıştırabilen bir sistem.
+*   **Gitar Amfi Prosesörü:** Özel donanım ve FlexASIO ile gecikmesiz ve çok çok daha ucuz bir müzik stüdyosu.
+*   **Mobil Mühendislik İstasyonu:** Proteus gibi ağır yazılımları bile çalıştırabilen bir sistem.
 
 ---
 
