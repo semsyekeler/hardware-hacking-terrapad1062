@@ -31,4 +31,4 @@ Aynı zamanda bu benim ilk GitHub projemdi. Bir işi yapmak kadar, onu başkalar
 Bu yolculuk, bana her "çöpün" içinde bir hazine, her sorunun içinde bir ders ve her projenin içinde kişisel bir gelişim hikayesi olabileceğini gösterdi.
 
 ---
-**[← Önceki Bölüm: Sınırların Ötesi - Yeni Yetenekler](./4_Beyond_The_Limits.md) | [Projenin Ana Sayfasına Dön →](https://github.com/semsyekeler/hardware-hacking-terrapad1062)**
+**[← Önceki Bölüm: Sınırların Ötesi - Yeni Yetenekler](./4_Beyond_The_Limits.md) | [Projenin Ana Sayfasına Dön →](https://github.com/semsyekeler/hardware-hacking-terrapad1062-windows-tablet)**
