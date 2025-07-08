@@ -1,27 +1,39 @@
-# Bölüm IV: Yazılım Optimizasyonu
+# Bölüm IV: Sınırların Ötesi - Yeni Yetenekler
 
-Donanım artık potansiyeline ulaşmıştı. Sıra, bu donanımdan en iyi performansı alacak yazılımı bulmaya ve optimize etmeye gelmişti.
+Bu proje sadece bir onarım hikayesi değil, aynı zamanda yaratıcılıkla bir cihazın ne kadar çok yönlü olabileceğinin bir kanıtıdır. İşte bu tabletin, standart kullanımın ötesine geçtiği bazı senaryolar:
 
-## Arayış: Doğru İşletim Sistemi
+## Senaryo 1: Taşınabilir Kodlama Monitörü
 
-*   **Problem:** Intel Atom Z8350 gibi düşük güçlü bir işlemci, modern işletim sistemleri altında kolayca zorlanabilir. Amacım, en akıcı ve en uyumlu deneyimi sunan sistemi bulmaktı.
-*   **Deneyler:** Bu amaçla birçok popüler Linux dağıtımını test ettim: MX Linux (XFCE), Zorin OS Lite ve çeşitli Debian versiyonları.
-*   **Sonuç:** Testler, Linux dağıtımlarının bu özel donanım kombinasyonunda sürücü uyumluluğu, dokunmatik ekran hassasiyeti ve genel sistem kararlılığı konularında Windows 10'un gerisinde kaldığını gösterdi. Özellikle ses ve sensör sürücüleri sorunluydu.
+*   **Yöntem:** **[Space Desk](https://www.spacedesk.net/)** programı sayesinde, tablet kablosuz olarak ana bilgisayarımın ikinci bir monitörüne dönüştü.
+*   **Avantaj:** Bu kurulum, kodları ana ekranda yazarken referans dokümanları veya çalışan uygulamayı tablette görmemi sağlıyor. Programın dokunmatik desteği sayesinde, tabletteki kodlar arasında gezinmek ve ayıklama yapmak inanılmaz derecede hızlanıyor.
+*   **İpucu:** Tableti dikey modda kullanmak için, önce tabletin kendi ayarlarından otomatik döndürmeyi kapatmak, ardından Space Desk ile bağlandıktan sonra ana bilgisayarın Görüntü Ayarları'ndan ikinci monitörün yönünü "Dikey" olarak seçmek gerekiyor.
 
-![Debian Kurulum Denemesi](../assets/images/debian%20net%20install%20kde%20plasma%20denerken%20kod%20ekrani%20açık.jpg)
-*^Linux dünyasındaki sayısız denemeden sadece biri. Her dağıtım, donanım uyumluluğu konusunda farklı bir sınav verdi.*
+<p align="center">
+  <img src="../assets/images/tablet_is_a_second_monitor.jpg" width="700">
+</p>
+<p align="center">
+  <i>Kodlama yaparken sağladığı ekstra ekran alanı ile verimliliği artıran bir kurulum.</i>
+</p>
 
-## Optimizasyon: Windows 10'u Uçurmak
+## Senaryo 2: Gecikmesiz Elektro Gitar Amfi Prosesörü
 
-Nihai karar, donanım için özel olarak tasarlanmış olan ruha, yani Windows 10'a geri dönmekti. Ancak standart bir kurulumla yetinmedim.
+*   **Problem:** Bir elektro gitarı doğrudan bir bilgisayara bağladığınızda, Windows'un kendi ses sürücülerinin yarattığı yüksek gecikme (latency) nedeniyle çalmak imkansız hale gelir. ASIO4ALL gibi standart çözümler ise her zaman en iyi sonucu vermez.
+*   **Çözüm:**
+    1.  **Donanım:** Bir ucu gitar girişi (kırmızı), diğer ucu kulaklık/hoparlör çıkışı olan özel yapım bir **AUX splitter** aparatı hazırladım. Bu aparat, gitar sinyalini mikrofona, dinleme sesini ise kulaklığa doğru yönlendirir.
+    2.  **Yazılım (Sürücü):** Windows'un yavaş sürücülerini baypas eden ve çok daha düşük gecikme sunan **[FlexASIO](https://github.com/dechamps/FlexASIO)** sürücüsünü kurdum. Bu, standart ASIO4ALL sürücüsüne göre daha esnek ve donanımı daha iyi tespit eden bir alternatiftir.
+    3.  **Yazılım (Prosesör):** **Guitar Rig 7** programı ile, tableti tam teşekküllü bir amfi ve efekt prosesörüne dönüştürdüm.
+*   **Sonuç:** Bu kurulum sayesinde, sıfıra yakın bir gecikmeyle, tabletimi kullanarak elektro gitarıma sayısız ton ve efekt katabiliyorum. Windows tabanlı olmasının getirdiği bu esneklik, tableti bir müzik aletine dönüştürdü.
 
-| Yazılım Optimizasyonu | Uygulama Arayüzü |
-| :--- | :--- |
-| **Problem:** Tarayıcı üzerinden YouTube izlemek, işlemciyi anında %100 kullanıma kilitleyerek cihazı aşırı yavaşlatıyor ve ısındırıyordu. Bu, benzer donanıma sahip tüm cihazların ortak kaderidir. <br><br> **Çözüm:** Tarayıcının getirdiği tüm gereksiz yükü ortadan kaldıran, YouTube videolarını doğrudan kendi arayüzünde API üzerinden çeken **FreeTube** adında bir masaüstü uygulaması kurdum. <br><br> **Sonuç:** Bu tek değişiklik devrim niteliğindeydi. İşlemci kullanımı %20-30 seviyelerine düştü, 1080p videolar bile takılmadan, akıcı ve **reklamsız** bir şekilde izlenebilir hale geldi. Bu, tabletin medya tüketim kabiliyetini tek başına baştan yarattı. | <img src="../assets/images/freetube.jpg" width="350"> |
+<p float="left">
+  <img src="../assets/images/aux_splitter_gitar_and_speaker.jpg" width="350" />
+  <img src="../assets/images/guitar_and_tablet_setup_birdwiev_photo.jpg" width="350" /> 
+</p>
+<p align="center">
+  <i>1. Fotoğraf: Özel yapım AUX splitter (kırmızı uç gitar girişi).      2. Fotoğraf: Tüm sistemin çalışır hali.</i>
+</p>
 
-*   **Üretkenlikte Zirve:** Microsoft OneNote uygulaması, tabletin Wacom tabanlı kalem teknolojisiyle kusursuz bir uyum sergiledi. Not almak, çizim yapmak ve PDF'ler üzerine işaretlemeler yapmak inanılmaz derecede akıcı ve keyifliydi.
+## Senaryo 3: Beklenmedik Yazılımlar
 
-Bu optimizasyonlar sayesinde, Terra Pad 1062, zayıf donanımına rağmen hem üretkenlik hem de eğlence için son derece verimli ve modern bir cihaza dönüştü.
+*   **Sürpriz:** İnanması güç olsa da, elektronik devre simülasyonu için kullanılan ve oldukça kaynak tüketen **Proteus 8** gibi bir program bile bu tablette çalışır halde. Bu, doğru optimizasyonlarla cihazın sınırlarının ne kadar zorlanabileceğinin bir kanıtı.
 
-![Windows 10 ve OneNote ile Mükemmel Uyum](../assets/images/one%20note%20for%20windows%2010%20tablet%20dış%20çekim.jpg)
-*^Doğru yazılım ve donanımın birleşimi, cihazın potansiyelini tamamen ortaya çıkardı.*
+Bu proje, eski bir donanımın bile doğru yaklaşımla ne kadar güçlü ve çok yönlü olabileceğini gösteriyor.
