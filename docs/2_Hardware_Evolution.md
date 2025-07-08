@@ -13,7 +13,9 @@ Bir cihazı onarmak onu standartlarına döndürür. Onu evrimleştirmek ise pot
   <img src="../assets/images/pin%20diyagram%20tablet.png" width="400" /> 
 </p>
 
-*^Solda üreticinin sağladığı şema, sağda ise kendi ölçümlerimle doğruladığım pin yapısı. Sağdaki fotoğrafta ön taraf tabletin ekranını, arka taraf ise şasesini göstermektedir.*
+| **Pin Analizi** |
+| :---: |
+| Solda üreticinin sağladığı şema, sağda ise kendi ölçümlerimle doğruladığım pin yapısı. Sağdaki fotoğrafta ön taraf tabletin ekranını, arka taraf ise şasesini göstermektedir. |
 
 ### Deşifre Edilmiş Pin Yapısı (Soldan Sağa)
 
@@ -33,9 +35,13 @@ Analizler, portun aslında tam işlevli bir USB 2.0 portu barındırdığını k
 *   **Çözüm:** Eski bir dizüstü bilgisayardan söktüğüm, kendi akustik ses odacıklarına sahip, çok daha kaliteli bir çift hoparlörü, tabletin orijinal hoparlör çıkışlarına lehimledim.
 *   **Mühendislik Detayı:** Hoparlörlerin kablolarını, tabletin orijinal hoparlör ızgaralarından geçirdim. Bu sayede dışarıda hiçbir kablo izi kalmadı. Hoparlörleri kasa geometrisine **sıfıra sıfır** oturacak şekilde konumlandırdım. Bu sayede ne ekrana bir baskı oluştu ne de tableti elde tutarken varlıkları hissedildi. Ses kalitesi, gece ile gündüz kadar farklılaştı.
 
-<img src="../assets/images/hoparlor_lehimlerken.jpg" width="450">
+<p align="center">
+  <img src="../assets/images/hoparlor_lehimlerken.jpg" width="450">
+</p>
 
-*^Teneke seslere veda anı. Her milimetrenin hesabı yapıldı.*
+| **Hoparlör Montajı** |
+| :---: |
+| Teneke seslere veda anı. Her milimetrenin hesabı yapıldı. |
 
 ## Modifikasyon 2: "Hayalet Klavye" Sorununun Çözümü
 
@@ -48,8 +54,13 @@ Analizler, portun aslında tam işlevli bir USB 2.0 portu barındırdığını k
 *   **Kamera Lensi Değişimi:** Çizik olan orijinal kamera lensi, eski bir laptoptan dikkatlice sökülen sağlam bir lens ile değiştirildi. Lens, yapışkanına zarar vermemek için etrafındaki plastikten kırılarak dikkatlice ayrıldı.
 *   **Şase Gıcırdamasının Giderilmesi:** Kasanın esneyen ve gıcırdama yapan noktalarına, iç kısımdan küçük destek parçaları eklenerek cihazın mekanik bütünlüğü artırıldı ve ses sorunu giderildi.
 
-![Tablet İçi Son Hali](../assets/images/tablet%20modifiye%20edilmiş%20hal%20içi.png)
-*^Tüm modifikasyonlar tamamlandıktan sonra tabletin iç düzeni.*
+<p align="center">
+  <img src="../assets/images/tablet%20modifiye%20edilmiş%20hal%20içi.png">
+</p>
+
+| **İç Düzen** |
+| :---: |
+| Tüm modifikasyonlar tamamlandıktan sonra tabletin iç düzeni. |
 
 ---
 **[Sıradaki Bölüm: Yazılım ve Optimizasyon →](./3_Software_and_Optimization.md)**
