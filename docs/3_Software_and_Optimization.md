@@ -45,6 +45,7 @@ Bu donanımda en iyi çalışan ve tableti gerçek bir taşınabilir iş istasyo
 
 ### Tarayıcı Optimizasyonu ve Dokunmatik Ekran İpuçları
 *   **En Hızlı Tarayıcı:** Bu donanım için en iyi tarayıcıyı bulma arayışında, popüler tüm alternatifleri test ettim. Testler sonucunda, en az sistem kaynağı tüketen ve en akıcı performansı sunan tarayıcının **Microsoft Edge** olduğu netleşti.
+*   **Genel Medya Tüketimi:** Cihaz, YouTube haricinde, tarayıcı üzerinden film veya dizi izleme gibi video oynatma işlemlerinde herhangi bir sorun yaşatmamaktadır. Optimize edilmiş Edge tarayıcı, bu tür içerikleri akıcı bir şekilde oynatabilmektedir.
 *   **Chromium Tabanlı Tarayıcılarda Kritik Dokunmatik Sorunu ve Çözümü:**
     *   **Problem:** Chrome, Brave gibi tarayıcılarda, "yeni sekme aç" (+) butonuna dokunmatik olarak tıklandığında, sistem dokunuşun hassas konumunu yanlış yorumlayıp hemen yanındaki "sekmeyi kapat" (X) butonuna basılmış gibi algılıyordu.
     *   **Çözüm:** Bu sorunu aşmak için, butona sadece dokunmak yerine, **her tıklamada kısa bir süre basılı tutmak** gerekiyor. Bu küçük gecikme, sistemin doğru konumu doğru bir şekilde tanıması için yeterli zamanı tanıyor.
