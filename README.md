@@ -6,9 +6,9 @@
 
 | **Proje Özeti** |
 | :---: |
-| Bu proje, atıl durumdaki bir Windows tabletin onarılıp, donanım ve yazılım katmanlarında modifiye edilerek nasıl çok amaçlı, taşınabilir ve maliyet-etkin bir cihaza dönüştürüldüğünü belgelemektedir. Sonuç, piyasadaki birçok niş üründen daha yetenekli; **ofis işleri, web'de gezinme, PDF okuma/düzenleme ve medya tüketimi** gibi günlük görevleri mükemmel bir şekilde yerine getiren, aynı zamanda **taşınabilir gitar prosesörü** ve **mobil mühendislik istasyonu** gibi özel görevleri de üstlenebilen kişisel bir iş istasyonudur. |
+| Bu proje, atıl durumdaki bir Windows tabletin onarılıp, donanım ve yazılım katmanlarında modifiye edilerek nasıl çok amaçlı, taşınabilir ve maliyet-etkin bir cihaza dönüştürüldüğünü belgelemektedir. Sonuç, piyasadaki birçok niş üründen daha yetenekli; **ofis işleri, web'de gezinme, PDF okuma/düzenleme ve medya tüketimi** gibi günlük görevleri mükemmel bir şekilde yerine getiren, aynı zamanda **gitar prosesörü** ve **mobil mühendislik istasyonu** gibi özel görevleri de üstlenebilen kişisel bir iş istasyonudur. |
 
-Bu depo, yazılımsal bir hata sonucu **brick** olan bir Terra Pad 1062 tabletin, sistematik arıza tespiti, onarımı ve bir dizi donanımsal/yazılımsal modifikasyonla modern, çok yönlü bir cihaza dönüştürülmesi sürecini adım adım belgelemektedir.
+Bu depo, yazılımsal bir hata sonucu kullanılamaz hale gelen bir Terra Pad 1062 tabletin, sistematik arıza tespiti, onarımı ve bir dizi donanımsal/yazılımsal modifikasyonla modern, çok yönlü bir cihaza dönüştürülmesi sürecini adım adım belgelemektedir.
 
 Bu rehber, benzer cihazlara sahip olan veya donanım modifikasyon projelerine ilgi duyanlar için teknik bir başvuru kaynağı olarak tasarlanmıştır.
 
@@ -24,17 +24,17 @@ Bu proje, bir cihazın yeniden doğuşunu anlatan 4 ana bölümden oluşmaktadı
 Cihazı kullanılamaz hale getiren UEFI/BIOS hatasının kanıta dayalı tespiti ve tek bir USB portu kısıtlamasıyla BIOS'un yeniden flash'lanması.
 
 ### **[Bölüm II: Donanımsal Evrim](./docs/2_Hardware_Evolution.md)**
-Cihazın sökülmesi, orijinal 5-pinli Pogo-Pin portunun tersine mühendislikle USB portuna dönüştürülmesi, "hayalet klavye" sorununun çözümü, ses sisteminin yükseltilmesi ve diğer mekanik iyileştirmeler.
+Cihazın orijinal 5-pinli Pogo-Pin portunun tersine mühendislikle USB portuna dönüştürülmesi, ses sisteminin yükseltilmesi ve diğer mekanik iyileştirmeler.
 
 ### **[Bölüm III: Yazılım ve Optimizasyon](./docs/3_Software_and_Optimization.md)**
-Linux maceralarından sonra Windows 10'da karar kılınması ve düşük güçlü donanımda akıcı bir deneyim sağlayan kritik yazılım seçimleri, optimizasyonlar ve kullanım ipuçları.
+Linux maceralarından sonra Windows 10'da karar kılınması ve düşük güçlü donanımda akıcı bir deneyim sağlayan kritik yazılım seçimleri.
 
 ### **[Bölüm IV: Sınırların Ötesi - Yeni Yetenekler](./docs/4_Beyond_The_Limits.md)**
 Onarılan tabletin dönüştüğü araçlar:
 *   **Taşınabilir Ofis:** E-posta, PDF okuma/düzenleme ve web'de akıcı gezinme.
 *   **Medya Merkezi:** Kaliteli ekranı ve yükseltilmiş ses sistemiyle mükemmel film/dizi izleme deneyimi.
-*   **Kablosuz Kodlama Monitörü:** Space Desk ile kablosuz ve dokunmatik bir ikinci ekran.
-*   **Taşınabilir Gitar Prosesörü:** Özel donanım ve FlexASIO ile gecikmesiz ve uygun maliyetli bir müzik stüdyosu.
+*   **Taşınabilir İkinci Ekran:** Space Desk ile kablosuz bir kodlama monitörü.
+*   **Gitar Amfi Prosesörü:** Özel donanım ve FlexASIO ile gecikmesiz ve çok çok daha ucuz bir müzik stüdyosu.
 *   **Mobil Mühendislik İstasyonu:** Proteus gibi ağır yazılımları bile çalıştırabilen bir sistem.
 
 ---
@@ -42,3 +42,5 @@ Onarılan tabletin dönüştüğü araçlar:
 ## Teşekkür
 
 Bu projenin başlangıç noktasındaki değerli yardımlarından dolayı Wortmann AG'den **Dennis Sudermann**'a teşekkürler.
+
+
