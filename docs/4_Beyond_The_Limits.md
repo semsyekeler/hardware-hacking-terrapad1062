@@ -9,7 +9,7 @@ Bu proje sadece bir onarım hikayesi değil, aynı zamanda yaratıcılıkla bir 
 *   **İpucu:** Tableti dikey modda kullanmak için, önce tabletin kendi ayarlarından otomatik döndürmeyi kapatmak, ardından Space Desk ile bağlandıktan sonra ana bilgisayarın Görüntü Ayarları'ndan ikinci monitörün yönünü "Dikey" olarak seçmek gerekiyor.
 
 <p align="center">
-  <img src="../assets/images/tablet_is_a_second_monitor.jpg" width="700">
+  <img src="../assets/images/tablet_as_a_second_monitor.jpg" width="700">
 </p>
 <p align="center">
   <i>Kodlama yaparken sağladığı ekstra ekran alanı ile verimliliği artıran bir kurulum.</i>
