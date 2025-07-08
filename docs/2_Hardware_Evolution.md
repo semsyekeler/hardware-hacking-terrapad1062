@@ -6,14 +6,13 @@ Bu bölümde, cihazın standart yeteneklerinin ötesine taşınmasını sağlaya
 
 *   **Tornavida:** Bu cihazda **Torx T4** uçlu tornavida gereklidir.
 *   **Açma Aparatı:** Kasayı çizmeden açmak için plastik bir pena veya eski bir banka kartı idealdir.
-*   **Önemli Uyarı (Sökme):** Arka kapağı açarken, **sadece tabletin kendi standını (kickstand) tutan vidaları sökün.** Doğrudan menteşenin ana şaseye bağlı olduğu vidalara dokunmayın. Aksi takdirde geri montajda menteşe hizalaması büyük bir sorun olabilir.
+*   **Önemli Uyarı (Sökme):** Arka kapağı açarken, **sadece Kickstand'ın vidalarını ve kapak vidalarını sökün.** Kickstand'ın tabletin gövdesine (body) bağlı olduğu menteşe vidalarına dokunmayın. Aksi takdirde geri montajda menteşe hizalaması büyük bir sorun olabilir.
 *   **Önemli Uyarı (Kablolar):** Cihazın içindeki ribbon (şerit) kablolar çok hassastır ve kolayca kopabilir. Sökme/takma işlemlerinde aşırı güç uygulamaktan kaçının.
 
 ## Tersine Mühendislik: Docking Portunun Analizi
 
 *   **Amaç:** Tabletin alt kısmında bulunan, orijinal klavyesi için tasarlanmış 5-pinli manyetik **Pogo-Pin konnektörünü** analiz ederek işlevsel bir porta dönüştürmek.
 *   **Yöntem:** Üreticiden temin edilen teknik şema (1. Fotoğraf) ve multimetre kullanılarak yapılan ölçümlerle pin yapısı doğrulandı. Bu doğrulamaya dayanarak kendi bağlantı şemam (2. Fotoğraf) oluşturuldu.
-*   **Sonuç:** Elde edilen bilgilerle, cihaza harici bir USB-A portu kazandıran özel bir adaptör imal edildi.
 
 <p float="left">
   <img src="../assets/images/thumbnail_pin_belegung_F1T.jpg" width="400" />
