@@ -26,7 +26,8 @@ Bu donanımda en iyi çalışan ve tableti gerçek bir taşınabilir iş istasyo
 | **Kodlama** | **Sublime Text** | İnanılmaz derecede hafif yapısı sayesinde anında açılıyor ve en büyük kod dosyalarında bile takılmadan, akıcı bir kullanım sunuyor. <br> *[Resmi Web Sitesi](https://www.sublimetext.com/)* |
 | **PDF** | **PDF-XChange Editor** | Adobe Reader gibi ağır alternatiflerin aksine, çok hızlı açılıyor ve büyük PDF'lerde gezinirken bile kasmadan stabil bir performans sergiliyor. <br> *[Resmi Web Sitesi](https://www.tracker-software.com/product/pdf-xchange-editor)* |
 | **Ofis** | **SoftMaker FreeOffice** | Microsoft Office'e en hızlı ve en hafif alternatif. Word, Excel ve PowerPoint dosyalarını şaşırtıcı bir hızla açıyor ve düzenliyor. <br> *[Resmi Web Sitesi](https://www.freeoffice.com/en/)* |
-| **E-Posta**| **Wino Mail** | Modern ve temiz arayüzünü, sistem kaynaklarını tüketmeyen hafif bir yapıyla birleştiriyor. <br> *[Microsoft Store](https://apps.microsoft.com/detail/9nblggh4s19m)* |
+| **E-Posta**| **Wino Mail** | Modern ve temiz arayüzünü, sistem kaynaklarını tüketmeyen hafif bir yapıyla birleştiriyor. <br> *[Microsoft Store](https://apps.microsoft.com/detail/9ncrcvjc50wl?hl=en-us&gl=us)* |
+| **Uzak Masaüstü**| **Parsec** | Düşük gecikmeli teknolojisi sayesinde ana bilgisayara uzaktan bağlanarak ağır işleri bile bu tablet üzerinden akıcı bir şekilde yapma imkanı tanır. <br> *[Resmi Web Sitesi](https://parsec.app/)* |
 
 <p align="center">
   <img src="../assets/images/programs.jpg" width="700">
@@ -42,9 +43,11 @@ Bu donanımda en iyi çalışan ve tableti gerçek bir taşınabilir iş istasyo
 | <img src="../assets/images/freetube.jpg" width="350"> | <img src="../assets/images/one%20note%20for%20windows%2010%20tablet%20dış%20çekim.jpg" width="350"> |
 | **Problem:** Tarayıcıdan YouTube izlemek, sürekli takılmalar, ses/görüntü kaymaları demekti. <br><br> **Çözüm:** Tarayıcıyı aradan çıkaran **[FreeTube](https://freetubeapp.io/)** istemcisi kuruldu. Bu tek uygulama, tabletin medya tüketim kabiliyetini tamamen değiştirdi ve sıfır takılma ile reklamsız, akıcı bir deneyim sağladı. | **Problem:** Akıcı bir not alma uygulaması ve kalem eksikliği. <br><br> **Çözüm:** En hızlı versiyon olan `OneNote for Windows 10` (Microsoft Store) ile **[VirtualTablet](https://www.sunnysidesoft.com/virtualtablet/)** uygulaması birleştirildi. VirtualTablet, telefonu bir grafik tablet olarak PC'ye bağlayarak, telefonun kalemini OneNote'da kullanmamı sağladı. |
 
-### Tarayıcı ve Dokunmatik İpuçları
-*   **En Hızlı Tarayıcı:** Denediğim tüm tarayıcılar arasında en akıcı ve hızlı çalışan **Microsoft Edge** oldu.
-*   **Dokunmatik Sorunu ve Çözümü:** Chromium tabanlı tarayıcılarda, yeni sekme açma gibi butonlara dokunmatik ile tıklandığında yaşanan yanlış tıklama sorununu, **her tıklamada butona kısa bir süre basılı tutarak** çözdüm. Bu, tarayıcının doğru konumu algılamasını sağlıyor.
+### Tarayıcı Optimizasyonu ve Dokunmatik Ekran İpuçları
+*   **En Hızlı Tarayıcı:** Bu donanım için en iyi tarayıcıyı bulma arayışında, popüler tüm alternatifleri test ettim. Testler sonucunda, en az sistem kaynağı tüketen ve en akıcı performansı sunan tarayıcının **Microsoft Edge** olduğu netleşti.
+*   **Chromium Tabanlı Tarayıcılarda Kritik Dokunmatik Sorunu ve Çözümü:**
+    *   **Problem:** Chrome, Brave gibi tarayıcılarda, "yeni sekme aç" (+) butonuna dokunmatik olarak tıklandığında, sistem dokunuşun hassas konumunu yanlış yorumlayıp hemen yanındaki "sekmeyi kapat" (X) butonuna basılmış gibi algılıyordu.
+    *   **Çözüm:** Bu sorunu aşmak için, butona sadece dokunmak yerine, **her tıklamada kısa bir süre basılı tutmak** gerekiyor. Bu küçük gecikme, sistemin doğru konumu doğru bir şekilde tanıması için yeterli zamanı tanıyor.
 
 Bu yazılımlar ve optimizasyonlar sayesinde tablet, donanımının getirdiği tüm dezavantajların aşıldığı, tam teşekküllü bir taşınabilir Windows sistemine dönüştü.
 
