@@ -93,9 +93,3 @@ La configuration des broches obtenue suite à l'analyse est la suivante :
 ---
 **[← Chapitre Précédent : Réparation et Résurrection](./1_Reparation_et_Resurrection.md) | [Chapitre Suivant : Logiciel et Optimisation →](./3_Logiciel_et_Optimisation.md)**
 
----
-<div align="center">
-
-**[📥 Télécharger cette page (Fichier .md)](https://raw.githubusercontent.com/semsyekeler/hardware-hacking-terrapad1062-windows-tablet/main/docs/fr/2_Evolution_Materielle.md)** | **[📦 Télécharger le projet complet (.zip)](https://github.com/semsyekeler/hardware-hacking-terrapad1062-windows-tablet/archive/refs/heads/main.zip)**
-
-</div>
