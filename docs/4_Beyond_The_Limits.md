@@ -56,3 +56,5 @@ Bu proje sadece bir onarım hikayesi değil, aynı zamanda yaratıcılıkla bir 
 
 ---
 Umarım bu rehber, kendi projeleriniz için size ilham verir. Okuduğunuz için teşekkürler.
+
+ **[Sıradaki Bölüm: Projenin Sonucu ve Kazanımlar →](./5_Conclusion_and_Takeaways.md)**
