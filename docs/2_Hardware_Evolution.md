@@ -13,7 +13,7 @@ Bir cihazı onarmak onu standartlarına döndürür. Onu evrimleştirmek ise pot
   <img src="../assets/images/pin%20diyagram%20tablet.png" width="400" /> 
 </p>
 <p align="center">
-  <i>1. Fotoğraf: Üreticinin sağladığı orijinal şema.      2. Fotoğraf: Kendi ölçümlerimle doğruladığım pin yapısı. Fotoğrafta üst taraf ekran, alt taraf tablet kapağı </i>
+  <i>1. Fotoğraf: Üreticinin sağladığı orijinal şema. 2. Fotoğraf: Kendi ölçümlerimle doğruladığım pin yapısı. Fotoğrafta üst taraf ekran, alt taraf tablet kapağı </i>
 </p>
 
 ### Pin Numaralandırması ve İşlevleri
