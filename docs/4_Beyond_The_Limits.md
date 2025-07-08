@@ -1,6 +1,5 @@
 # Bölüm IV: Sınırların Ötesi - Bir Tabletten Daha Fazlası
 
-[← Önceki Bölüm: Yazılım ve Optimizasyon](./3_Software_and_Optimization.md)
 
 Bu proje sadece bir onarım hikayesi değil, aynı zamanda yaratıcılıkla bir cihazın ne kadar çok yönlü olabileceğinin bir kanıtıdır. Onarılan ve optimize edilen bu tablet, artık standart bir cihazın çok ötesinde, kişisel ihtiyaçlarıma göre şekillenmiş bir dizi araca dönüştü.
 
@@ -57,4 +56,4 @@ Bu proje sadece bir onarım hikayesi değil, aynı zamanda yaratıcılıkla bir 
 ---
 Umarım bu rehber, kendi projeleriniz için size ilham verir. Okuduğunuz için teşekkürler.
 
- **[Sıradaki Bölüm: Projenin Sonucu ve Kazanımlar →](./5_Conclusion_and_Takeaways.md)**
+ **[← Önceki Bölüm: Yazılım ve Optimizasyon](./3_Software_and_Optimization.md)|[Sıradaki Bölüm: Projenin Sonucu ve Kazanımlar →](./5_Conclusion_and_Takeaways.md)**
