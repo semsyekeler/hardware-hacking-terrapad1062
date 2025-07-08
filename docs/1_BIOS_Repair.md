@@ -25,3 +25,9 @@ Bu sorunu aşmak için aşağıdaki adımları izleyen bir yöntem geliştirdim:
 3.  **Komutu Geri Çağırmak:** Klavye olmadan, tabletin fiziksel **Ses Açma/Kısma tuşlarını** kullanarak komut geçmişinde gezindim. `Flash.nsh` komutu ekranda yeniden belirdiğinde, **Güç Tuşuna** bir kez basarak (Enter işlevi görür) komutu çalıştırdım.
 
 Bu alışılmadık yöntem sayesinde flash'lama işlemi başarıyla tamamlandı ve tabletin beyni, unuttuğu belleğini yeniden tanıdı.
+
+### Gerekli Dosyalar
+
+*   **Terra Pad 1062 BIOS Dosyası:** Üreticinin sağladığı BIOS flash dosyasına aşağıdaki linkten ulaşabilirsiniz.
+    *   [FLASH.zip İndirme Linki](http://drive.wortmann.de/files/1749018331/FLASH.zip)
+    *   **Uyarı:** BIOS güncellemesi riskli bir işlemdir. Bu dosyayı kullanmanın tüm sorumluluğu size aittir. İşlem sırasında cihazın gücünün kesilmediğinden emin olun.
