@@ -52,3 +52,7 @@ Bu proje sadece bir onarım hikayesi değil, aynı zamanda yaratıcılıkla bir 
 
 ---
 Umarım bu rehber, kendi projeleriniz için size ilham verir. Okuduğunuz için teşekkürler.
+
+<p align="center">
+  <strong><a href="./3_Software_and_Optimization.md">← Önceki Bölüm: Yazılım ve Optimizasyon</a></strong>
+</p>
