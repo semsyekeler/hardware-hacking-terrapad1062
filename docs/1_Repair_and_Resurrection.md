@@ -31,7 +31,7 @@ Bu alışılmadık yöntem sayesinde flash'lama işlemi başarıyla tamamlandı 
 ### Gerekli Dosyalar
 
 *   **Terra Pad 1062 BIOS Dosyası:** Üreticinin sağladığı BIOS flash dosyasına aşağıdaki linkten ulaşabilirsiniz.
-    *   [FLASH.zip İndirme Linki](../TERRAPAD1062_BIOS_FLASH.zip)
+    *   [TERRAPAD1062_BIOS_FLASH.zip İndirme Linki](../TERRAPAD1062_BIOS_FLASH.zip)
     *   **Uyarı:** BIOS güncellemesi riskli bir işlemdir. Bu dosyayı kullanmanın tüm sorumluluğu size aittir. İşlem sırasında cihazın gücünün kesilmediğinden emin olun.
 
 ---
