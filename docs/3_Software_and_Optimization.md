@@ -1,55 +1,56 @@
-# Bölüm IV: Sınırların Ötesi - Bir Tabletten Daha Fazlası
+# Bölüm III: Yazılım ve Optimizasyon
 
-Bu proje sadece bir onarım hikayesi değil, aynı zamanda yaratıcılıkla bir cihazın ne kadar çok yönlü olabileceğinin bir kanıtıdır. Onarılan ve optimize edilen bu tablet, artık standart bir cihazın çok ötesinde, kişisel ihtiyaçlarıma göre şekillenmiş bir dizi araca dönüştü.
+Donanım modifikasyonları tamamlandıktan sonraki aşama, bu donanıma en uygun yazılım ekosistemini kurmak ve onu verimli bir iş istasyonuna dönüştürmekti.
 
-## 🎸 Senaryo 1: Taşınabilir Gitar Stüdyosu
+## A. İşletim Sistemi Arayışı: Zorlu Bir Macera
 
-*   **Fikir:** Windows tabanlı bir tabletin en büyük avantajlarından biri, masaüstü uygulamalarını çalıştırabilme esnekliğidir. Bu esnekliği kullanarak, pahalı ve hantal amfi/prosesör donanımlarına bir alternatif yaratmak ve tableti, her yere götürebileceğim bir elektro gitar stüdyosuna dönüştürmekti.
-*   **Zorluk:** Bir elektro gitarı doğrudan bir Windows bilgisayara bağladığınızda, ses sürücülerinin yarattığı yüksek gecikme (latency), çalınan notanın duyulması arasında fark edilebilir bir gecikmeye neden olur. Bu durum, ritmik olarak doğru çalmayı imkansız hale getirir.
-*   **Çözüm:**
-    1.  **Donanım:** Bir ucu gitar girişi (kırmızı), diğer ucu kulaklık/hoparlör çıkışı olan özel yapım bir **AUX splitter** aparatı hazırlandı.
-    2.  **Sürücü:** Standart ASIO4ALL sürücüsü yerine, kullanımı kolay bir arayüze sahip olan ve esnek yapılandırma sunan **FlexASIO GUI** kuruldu.
-        *   [FlexASIO GUI İndirme Linki (v0.35)](https://github.com/flipswitchingmonkey/FlexASIO_GUI/releases/download/v0.35/FlexASIO.GUIInstaller_0.35.exe)
-    3.  **Prosesör:** **Guitar Rig 7** programı ile tablet, neredeyse sınırsız sayıda amfi modeli, kabin simülasyonu ve efekt pedalından oluşan devasa bir ses cephaneliğine kavuştu.
-*   **Sonuç:** Bu kurulum sayesinde, sıfıra yakın bir gecikmeyle, istediğim yerde elektro gitarıma sayısız ton ve efekt katabiliyorum.
+*   **Problem:** Intel Atom Z8500 gibi düşük güçlü bir işlemci, modern işletim sistemleri altında kolayca zorlanabilir. Amacım, hem medya tüketimi hem de üretkenlik için en akıcı deneyimi sunan sistemi bulmaktı.
+*   **Deneyler ve Sonuçlar:**
+    *   **Ubuntu Macerası:** Kurulum sırasında ekranın sürekli olarak rastgele zamanlarda kapanması, hem kurulum sürecini sekteye uğrattı hem de kararlı bir kullanımın mümkün olmayacağını gösterdi.
+    *   **Debian (Net Install) Denemesi:** Çift işletim sistemi amacıyla, mümkün olan en minimal Debian kurulumunu yaptım. Hedefim, medya tüketimi için ultra hafif bir Linux ortamı yaratmaktı. Ancak sonuç, Windows 10'a kıyasla son derece yavaş, hantal ve tabletin donanım özelliklerinden uzak, adeta bir işkenceye dönüşen bir deneyim oldu.
+*   **Nihai Karar:** Yapılan testler, bu özel donanım kombinasyonu için en stabil, uyumlu ve performanslı platformun **Windows 10** olduğunu kesinleştirdi. Özellikle dokunmatik ekran, kalem ve sensör sürücüleri konusundaki sorunsuz entegrasyon belirleyici oldu.
 
 <p align="center">
-  <img src="../assets/images/guitar_and_tablet_setup_birdview_photo.jpg" width="750">
+  <img src="../assets/images/debian%20net%20install%20kde%20plasma%20denerken%20kod%20ekrani%20açık.jpg" width="550">
 </p>
 <p align="center">
-  <i>1. Fotoğraf: Tablet, gitar, kulaklık ve splitter ile tüm sistemin çalışır hali.</i>
+  <i>Linux dünyasındaki sayısız denemeden sadece biri. Her dağıtım, donanım uyumluluğu konusunda farklı bir sınav verdi.</i>
 </p>
+
+## B. Kritik Yazılım Seçimleri: Hız ve Stabilite
+
+Bu donanımda en iyi çalışan ve tableti gerçek bir taşınabilir iş istasyonuna dönüştüren, **hızlı açılan ve stabil kullanım sağlayan** yazılımlar şunlar oldu:
+
+| Kategori | Seçilen Yazılım | Açıklama ve İndirme Linki |
+| :--- | :--- | :--- |
+| **Kodlama** | **Sublime Text** | İnanılmaz derecede hafif yapısı sayesinde anında açılıyor ve en büyük kod dosyalarında bile takılmadan, akıcı bir kullanım sunuyor. <br> *[Resmi Web Sitesi](https://www.sublimetext.com/)* |
+| **PDF** | **PDF-XChange Editor** | Adobe Reader gibi ağır alternatiflerin aksine, çok hızlı açılıyor ve büyük PDF'lerde gezinirken bile kasmadan stabil bir performans sergiliyor. <br> *[Resmi Web Sitesi](https://www.tracker-software.com/product/pdf-xchange-editor)* |
+| **Ofis** | **SoftMaker FreeOffice** | Microsoft Office'e en hızlı ve en hafif alternatif. Word, Excel ve PowerPoint dosyalarını şaşırtıcı bir hızla açıyor ve düzenliyor. <br> *[Resmi Web Sitesi](https://www.freeoffice.com/en/)* |
+| **E-Posta**| **Wino Mail** | Modern ve temiz arayüzünü, sistem kaynaklarını tüketmeyen hafif bir yapıyla birleştiriyor. <br> *[Microsoft Store](https://apps.microsoft.com/detail/9ncrcvjc50wl?hl=en-us&gl=us)* |
+| **Uzak Masaüstü**| **Parsec** | Düşük gecikmeli teknolojisi sayesinde ana bilgisayara uzaktan bağlanarak ağır işleri bile bu tablet üzerinden akıcı bir şekilde yapma imkanı tanır. <br> *[Resmi Web Sitesi](https://parsec.app/)* |
 
 <p align="center">
-  <img src="../assets/images/aux_splitter_gitar_and_speaker.jpg" width="400">
+  <img src="../assets/images/programs.jpg" width="700">
 </p>
 <p align="center">
-  <i>2. Fotoğraf: Özel yapım AUX splitter (kırmızı uç gitar girişi).</i>
+  <i>Cihazın potansiyelini ortaya çıkaran hafif ve güçlü yazılımlar.</i>
 </p>
 
+## C. Günlük Kullanım Optimizasyonları
 
-## 💻 Senaryo 2: Kablosuz ve Dokunmatik Kodlama Monitörü
+| YouTube Sorunu ve Çözümü | OneNote ve Kalem Çözümü |
+| :---: | :---: |
+| <img src="../assets/images/freetube.jpg" width="350"> | <img src="../assets/images/one%20note%20for%20windows%2010%20tablet%20dış%20çekim.jpg" width="350"> |
+| **Problem:** Tarayıcıdan YouTube izlemek, sürekli takılmalar, ses/görüntü kaymaları demekti. <br><br> **Çözüm:** Tarayıcıyı aradan çıkaran **[FreeTube](https://freetubeapp.io/)** istemcisi kuruldu. Bu tek uygulama, tabletin medya tüketim kabiliyetini tamamen değiştirdi ve sıfır takılma ile reklamsız, akıcı bir deneyim sağladı. | **Problem:** Akıcı bir not alma uygulaması ve kalem eksikliği. <br><br> **Çözüm:** En hızlı versiyon olan `OneNote for Windows 10` (Microsoft Store) ile **[VirtualTablet](https://www.sunnysidesoft.com/virtualtablet/)** uygulaması birleştirildi. VirtualTablet, telefonu bir grafik tablet olarak PC'ye bağlayarak, telefonun kalemini OneNote'da kullanmamı sağladı. |
 
-*   **Fikir:** Kodlama yaparken genellikle referans dokümanları veya çalışan uygulamanın önizlemesi için ikinci bir ekrana ihtiyaç duyarım. Bu, sürekli pencereler arasında geçiş yapma ihtiyacını ortadan kaldırarak iş akışını hızlandırır.
-*   **Zorluk:** Geleneksel ikinci monitörler hem maliyetli hem de taşınabilir değildir.
-*   **Çözüm:** **[Space Desk](https://www.spacedesk.net/)** programı, tableti kablosuz olarak ana bilgisayarımın ikinci bir monitörüne dönüştürdü.
-*   **Kullanım Farkı:** Bu kurulumun en büyük avantajı, tabletin dokunmatik özelliğinin korunması. Ana ekranda kod yazarken, tabletteki referans kodlar arasında parmağımla kaydırma yapabilmek veya bir hata mesajını direkt üzerine dokunarak seçebilmek, iş akışımı inanılmaz derecede hızlandırdı.
-*   **Pro İpucu:** Tableti dikey modda verimli kullanmak için izlenmesi gereken adımlar şunlardır: Önce tabletin kendi ayarlarından otomatik döndürmeyi kapatın. Ardından Space Desk ile bilgisayara bağlanın. Ekran yatay geldiğinde, ana bilgisayarınızın Görüntü Ayarları'ndan ikinci monitörün yönünü "Dikey" olarak seçin.
+### Tarayıcı Optimizasyonu ve Dokunmatik Ekran İpuçları
+*   **En Hızlı Tarayıcı:** Bu donanım için en iyi tarayıcıyı bulma arayışında, popüler tüm alternatifleri test ettim. Testler sonucunda, en az sistem kaynağı tüketen ve en akıcı performansı sunan tarayıcının **Microsoft Edge** olduğu netleşti.
+*   **Genel Medya Tüketimi:** Cihaz, YouTube haricinde, tarayıcı üzerinden film veya dizi izleme gibi video oynatma işlemlerinde herhangi bir sorun yaşatmamaktadır. Optimize edilmiş Edge tarayıcı, bu tür içerikleri akıcı bir şekilde oynatabilmektedir.
+*   **Chromium Tabanlı Tarayıcılarda Kritik Dokunmatik Sorunu ve Çözümü:**
+    *   **Problem:** Chrome, Brave gibi tarayıcılarda, "yeni sekme aç" (+) butonuna dokunmatik olarak tıklandığında, sistem dokunuşun hassas konumunu yanlış yorumlayıp hemen yanındaki "sekmeyi kapat" (X) butonuna basılmış gibi algılıyordu.
+    *   **Çözüm:** Bu sorunu aşmak için, butona sadece dokunmak yerine, **her tıklamada kısa bir süre basılı tutmak** gerekiyor. Bu küçük gecikme, sistemin doğru konumu doğru bir şekilde tanıması için yeterli zamanı tanıyor.
 
-<p align="center">
-  <img src="../assets/images/tablet_as_a_second_monitor.jpg" width="700">
-</p>
-<p align="center">
-  <i>Kodlama yaparken sağladığı dokunmatik ve dikey ikinci ekran alanı ile verimliliği artıran bir kurulum.</i>
-</p>
-
-## ⚡ Senaryo 3: Mobil Mühendislik Laboratuvarı
-
-*   **Fikir:** Bir mühendis olarak, aklıma gelen bir devre fikrini veya bir bileşenin çalışma mantığını hızlıca test etme ihtiyacı duyabiliyorum.
-*   **Zorluk:** Profesyonel simülasyon yazılımları genellikle güçlü masaüstü bilgisayarlar gerektirir.
-*   **Sürpriz Çözüm:** Bu projenin en şaşırtıcı sonuçlarından biri, normalde kaynak tüketimiyle bilinen profesyonel bir elektronik devre simülasyon programı olan **Proteus 8**'in bu tablette temel düzeyde de olsa çalışabilmesiydi.
-*   **Sonuç:** Bu, tableti, aklıma takılan bir devre fikrini kütüphanede veya bir kafede hızlıca kurup test edebileceğim bir "mobil laboratuvara" dönüştürdü.
+Bu yazılımlar ve optimizasyonlar sayesinde tablet, donanımının getirdiği tüm dezavantajların aşıldığı, tam teşekküllü bir taşınabilir Windows sistemine dönüştü.
 
 ---
-Umarım bu rehber, kendi projeleriniz için size ilham verir. Okuduğunuz için teşekkürler.
-
+**[← Önceki Bölüm: Donanımsal Evrim](./2_Hardware_Evolution.md) | [Sıradaki Bölüm: Sınırların Ötesi - Yeni Yetenekler →](./4_Beyond_The_Limits.md)**
