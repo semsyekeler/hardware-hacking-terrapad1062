@@ -25,7 +25,7 @@ Analizler sonucunda elde edilen pin konfigürasyonu aşağıdaki gibidir:
 | **1**        | **+5V Güç**         |  `+V_5P0_KB`   | Harici aksesuarlara güç sağlar. USB standartlarına uygundur.             |
 | **2**        | **USB Data - (DN)** | `USB2_MODEM_DN`| Standart USB 2.0 negatif veri hattı.                                    |
 | **3**        | **USB Data + (DP)** | `USB2_MODEM_DP`| Standart USB 2.0 pozitif veri hattı.                                    |
-| **4**        | **Klavye Algılama** |    `KB_DET`    | Klavye takılı olup olmadığını algılar. Harici klavye tarafından, **1k Ohm'luk bir direnç üzerinden** GND'ye (Pin 5) çekildiğinde aktif olur. |
+| **4**        | **Klavye Algılama** |    `KB_DET`    | Klavye takılı olup olmadığını algılar. Harici klavye tarafından, **1k Ohm'luk bir direnç üzerinden** GND'ye (Pin 5) çekilerek aktif olur. |
 | **5**        | **Toprak (GND)**    |     `GND`      | Devre için ortak referans topraklaması.                                   |
 
 ## Modifikasyon 1: Ses Sistemi Yükseltmesi
