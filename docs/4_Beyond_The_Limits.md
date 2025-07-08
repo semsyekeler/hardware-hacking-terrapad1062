@@ -8,23 +8,23 @@ Bu proje sadece bir onarım hikayesi değil, aynı zamanda yaratıcılıkla bir 
 *   **Zorluk:** Bir elektro gitarı doğrudan bir Windows bilgisayara bağladığınızda, ses sürücülerinin yarattığı yüksek gecikme (latency), çalınan notanın duyulması arasında fark edilebilir bir gecikmeye neden olur. Bu durum, ritmik olarak doğru çalmayı imkansız hale getirir.
 *   **Çözüm:**
     1.  **Donanım:** Bir ucu gitar girişi (kırmızı), diğer ucu kulaklık/hoparlör çıkışı olan özel yapım bir **AUX splitter** aparatı hazırlandı.
-    2.  **Sürücü:** Standart ASIO4ALL sürücüsü yerine, kullanımı kolay bir arayüze sahip olan ve esnek yapılandırma sunan **FlexASIO GUI** kuruldu. Bu, ses ayarlarını yönetmeyi çok daha basit hale getirdi.
+    2.  **Sürücü:** Standart ASIO4ALL sürücüsü yerine, kullanımı kolay bir arayüze sahip olan ve esnek yapılandırma sunan **FlexASIO GUI** kuruldu.
         *   [FlexASIO GUI İndirme Linki (v0.35)](https://github.com/flipswitchingmonkey/FlexASIO_GUI/releases/download/v0.35/FlexASIO.GUIInstaller_0.35.exe)
     3.  **Prosesör:** **Guitar Rig 7** programı ile tablet, neredeyse sınırsız sayıda amfi modeli, kabin simülasyonu ve efekt pedalından oluşan devasa bir ses cephaneliğine kavuştu.
 *   **Sonuç:** Bu kurulum sayesinde, sıfıra yakın bir gecikmeyle, istediğim yerde elektro gitarıma sayısız ton ve efekt katabiliyorum.
 
 <p align="center">
-  <img src="../assets/images/aux_splitter_gitar_and_speaker.jpg" width="400">
-</p>
-<p align="center">
-  <i>1. Fotoğraf: Özel yapım AUX splitter (kırmızı uç gitar girişi).</i>
-</p>
-
-<p align="center">
   <img src="../assets/images/guitar_and_tablet_setup_birdview_photo.jpg" width="750">
 </p>
 <p align="center">
-  <i>2. Fotoğraf: Tablet, gitar, kulaklık ve splitter ile tüm sistemin çalışır hali.</i>
+  <i>1. Fotoğraf: Tablet, gitar, kulaklık ve splitter ile tüm sistemin çalışır hali.</i>
+</p>
+
+<p align="center">
+  <img src="../assets/images/aux_splitter_gitar_and_speaker.jpg" width="400">
+</p>
+<p align="center">
+  <i>2. Fotoğraf: Özel yapım AUX splitter (kırmızı uç gitar girişi).</i>
 </p>
 
 
