@@ -2,23 +2,28 @@
 
 Bu bölümde, cihazın standart yeteneklerinin ötesine taşınmasını sağlayan donanımsal modifikasyonlar ve iyileştirmeler detaylandırılmaktadır.
 
+## Gerekli Aletler ve İlk Adımlar
+
+*   **Tornavida:** Bu cihazda **Torx T4** uçlu tornavida gereklidir.
+*   **Açma Aparatı:** Kasayı çizmeden açmak için plastik bir pena veya eski bir banka kartı idealdir.
+*   **Önemli Uyarı (Sökme):** Arka kapağı açarken, **sadece tabletin kendi standını (kickstand) tutan vidaları sökün.** Doğrudan menteşenin ana şaseye bağlı olduğu vidalara dokunmayın. Aksi takdirde geri montajda menteşe hizalaması büyük bir sorun olabilir.
+*   **Önemli Uyarı (Kablolar):** Cihazın içindeki ribbon (şerit) kablolar çok hassastır ve kolayca kopabilir. Sökme/takma işlemlerinde aşırı güç uygulamaktan kaçının.
+
 ## Tersine Mühendislik: Docking Portunun Analizi
 
 *   **Amaç:** Tabletin alt kısmında bulunan, orijinal klavyesi için tasarlanmış 5-pinli manyetik **Pogo-Pin konnektörünü** analiz ederek işlevsel bir porta dönüştürmek.
-*   **Yöntem:** Üreticiden temin edilen teknik şema (1. Fotoğraf) ve multimetre kullanılarak yapılan ölçümlerle pin yapısı doğrulandı. Bu doğrulamaya dayanarak kendi bağlantı şemam (2. Fotoğraf) oluşturuldu. Analizler, portun tam işlevli bir USB 2.0 arayüzü barındırdığını ortaya koydu.
-*   **Sonuç:** Elde edilen bilgilerle, cihaza harici bir USB-A portu kazandıran özel bir adaptör imal edildi. Adaptör, tabletin iç girintisine tam oturacak şekilde tasarlanarak ergonomik bütünlük korundu.
+*   **Yöntem:** Üreticiden temin edilen teknik şema (1. Fotoğraf) ve multimetre kullanılarak yapılan ölçümlerle pin yapısı doğrulandı. Bu doğrulamaya dayanarak kendi bağlantı şemam (2. Fotoğraf) oluşturuldu.
+*   **Sonuç:** Elde edilen bilgilerle, cihaza harici bir USB-A portu kazandıran özel bir adaptör imal edildi.
 
 <p float="left">
   <img src="../assets/images/thumbnail_pin_belegung_F1T.jpg" width="400" />
   <img src="../assets/images/pin%20diyagram%20tablet.png" width="400" /> 
 </p>
 <p align="center">
-  <i>1. Fotoğraf: Üreticinin sağladığı orijinal şema.      2. Fotoğraf: Kendi ölçümlerimle doğruladığım pin yapısı. (Ön taraf ekran, arka taraf kapak)</i>
+  <i>1. Fotoğraf: Üreticinin sağladığı orijinal şema.      2. Fotoğraf: Kendi ölçümlerimle doğruladığım pin yapısı.</i>
 </p>
 
 ### Pin Numaralandırması ve İşlevleri
-
-Analizler sonucunda elde edilen pin konfigürasyonu aşağıdaki gibidir:
 
 | Pin Numarası | İşlevi                | Şema Karşılığı | Açıklama                                                                |
 | :----------: | ------------------- | :------------: | ----------------------------------------------------------------------- |
@@ -32,31 +37,22 @@ Analizler sonucunda elde edilen pin konfigürasyonu aşağıdaki gibidir:
 
 *   **Problem:** Cihazın orijinal hoparlörleri, özellikle konuşma içeren içeriklerde yetersiz ve tiz bir ses karakteristiği sergiliyordu.
 *   **Çözüm:** Eski bir dizüstü bilgisayardan alınan, kendi akustik odacıklarına sahip daha yüksek kaliteli bir çift hoparlör, tabletin orijinal hoparlör çıkışlarına lehimlendi.
-*   **Mühendislik Detayı:** Hoparlör kabloları, tabletin orijinal hoparlör ızgaralarından geçirildi. Hoparlörler, kasa geometrisine tam oturacak şekilde konumlandırılarak cihazın ergonomisi ve fiziksel bütünlüğü korundu. Sonuç olarak ses kalitesinde belirgin bir artış sağlandı.
-
-<p align="center">
-  <img src="../assets/images/hoparlor_lehimlerken.jpg" width="450">
-</p>
-<p align="center">
-  <i>Hoparlör montajı.</i>
-</p>
+*   **Mühendislik Detayı:** Hoparlörler, kasa geometrisine tam oturacak şekilde konumlandırılarak cihazın ergonomisi ve fiziksel bütünlüğü korundu.
 
 ## Modifikasyon 2: "Hayalet Klavye" Sorununun Çözümü
 
-*   **Problem:** Yapılan özel USB soketinin metal pinlerinin, tabletin alüminyum şasesine temas etmesi sonucu `KB_DET` (Klavye Algılama) pini istem dışı olarak tetikleniyor, bu da otomatik ekran döndürme gibi işlevleri kilitliyordu.
+*   **Problem:** Yapılan özel USB soketinin metal pinlerinin, tabletin alüminyum şasesine temas etmesi sonucu `KB_DET` pini istem dışı olarak tetikleniyor, bu da otomatik ekran döndürme gibi işlevleri kilitliyordu.
+*   **Arıza Tespiti (Hipotez ve Gerçek):** İlk başta sorunun, batarya sökülse bile şarjlı kalan bir kapasitörden kaynaklandığını düşündüm. Ancak asıl nedenin, soket ile şase arasındaki fiziksel temas (kısa devre) olduğu anlaşıldı.
 *   **Çözüm:** Temas eden bölge, sıcak silikon kullanılarak elektriksel olarak yalıtıldı ve sorun kalıcı olarak giderildi.
 
 ## Diğer Mekanik İyileştirmeler
 
-*   **Kamera Lensi Değişimi:** Çizik olan orijinal kamera lensi, eski bir laptoptan alınan sağlam bir lens ile değiştirildi.
+*   **Kamera Lensi Değişimi:** Çizik olan orijinal kamera lensi, eski bir laptoptan alınan sağlam bir lens ile değiştirildi. Lens, yapışkanına zarar vermemek için etrafındaki plastikten kırılarak dikkatlice ayrıldı.
 *   **Şase Gıcırdamasının Giderilmesi:** Kasanın esneyen noktalarına iç kısımdan destek parçaları eklenerek mekanik stabilite artırıldı ve gıcırdama sesi engellendi.
 
-<p align="center">
-  <img src="../assets/images/tablet%20modifiye%20edilmiş%20hal%20içi.png">
-</p>
-<p align="center">
-  <i>Tüm modifikasyonlar tamamlandıktan sonra tabletin iç düzeni.</i>
-</p>
-
 ---
-**[Sıradaki Bölüm: Yazılım ve Optimizasyon →](./3_Software_and_Optimization.md)**
+<p align="center">
+  <strong><a href="./1_Repair_and_Resurrection.md">← Önceki Bölüm: Onarım ve Diriliş</a></strong>
+  <span style="padding: 0 20px;">|</span>
+  <strong><a href="./3_Software_and_Optimization.md">Sıradaki Bölüm: Yazılım ve Optimizasyon →</a></strong>
+</p>
