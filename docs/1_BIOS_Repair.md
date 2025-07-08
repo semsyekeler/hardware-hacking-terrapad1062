@@ -9,7 +9,7 @@ Sorunun kaynağını bulmak için basit bir mantık izledim: Sorun donanımda m�
 | Linux Çekirdeğinin Gördüğü | UEFI Firmware'inin Göremediği |
 | :---: | :---: |
 | Bir Linux Mint Live USB'si ile sistemi başlattığımda, `GParted` uygulaması tabletin 64GB'lık eMMC depolamasını sorunsuz bir şekilde tanıdı. Bu, çipin fiziksel olarak sağlam olduğunun kesin bir kanıtıydı. | UEFI Shell ekranında ise, `map -r` komutu hiçbir depolama aygıtı (`blkX`) listelemiyordu. Bu durum, tabletin kendi beyni olan UEFI'nin, fiziksel olarak sağlam olan belleği tanıyamadığını gösteriyordu. |
-| <img src="../assets/images/thumbnail_imag%20e001.jpg" width="350"> | <img src="../assets/images/Outlook-qgcwu443.png" width="350"> |
+| <img src="../assets/images/thumbnail_17477595295231327780041398629873.jpg.jpg" width="350"> | <img src="../assets/images/Outlook-qgcwu443.png" width="350"> |
 | **Teşhis:** Sorun, eMMC çipinde değil; UEFI firmware'inde veya NVRAM'deki bir bozulmadaydı. |
 
 ## Çözüm: Tek Port Kısıtlamasını Aşmak
