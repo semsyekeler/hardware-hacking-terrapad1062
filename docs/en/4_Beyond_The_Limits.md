@@ -15,14 +15,14 @@ This project is not just a repair story; it's a testament to how versatile a dev
 *   **The Result:** Thanks to this setup, I can add countless tones and effects to my electric guitar anywhere, with near-zero latency.
 
 <p align="center">
-  <img src="../assets/images/guitar_and_tablet_setup_birdview_photo.jpg" width="750">
+  <img src="../../assets/images/guitar_and_tablet_setup_birdview_photo.jpg" width="750">
 </p>
 <p align="center">
   <i>Photo 1: The complete system in action with the tablet, guitar, headphones, and splitter.</i>
 </p>
 
 <p align="center">
-  <img src="../assets/images/aux_splitter_gitar_and_speaker.jpg" width="400">
+  <img src="../../assets/images/aux_splitter_gitar_and_speaker.jpg" width="400">
 </p>
 <p align="center">
   <i>Photo 2: The custom-made AUX splitter that separates the guitar signal (red end) and the headphone output.</i>
