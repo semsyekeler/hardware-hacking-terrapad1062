@@ -18,7 +18,7 @@ Bu rehber, benzer cihazlara sahip olan veya donanım modifikasyon projelerine il
 
 ## Projenin Ana Hatları
 
-Bu proje, bir cihazın yeniden doğuşunu anlatan 4 ana bölümden oluşmaktadır:
+Bu proje, bir cihazın yeniden doğuşunu anlatan 5 ana bölümden oluşmaktadır:
 
 ### **[Bölüm I: Onarım ve Diriliş](./docs/1_Repair_and_Resurrection.md)**
 Cihazı kullanılamaz hale getiren UEFI/BIOS hatasının kanıta dayalı tespiti ve tek bir USB portu kısıtlamasıyla BIOS'un yeniden flash'lanması.
@@ -36,6 +36,9 @@ Onarılan tabletin dönüştüğü araçlar:
 *   **Taşınabilir İkinci Ekran:** Space Desk ile kablosuz bir kodlama monitörü.
 *   **Gitar Amfi Prosesörü:** Özel donanım ve FlexASIO ile gecikmesiz ve çok çok daha ucuz bir müzik stüdyosu.
 *   **Mobil Mühendislik İstasyonu:** Proteus gibi ağır yazılımları bile çalıştırabilen bir sistem.
+
+### **[Bölüm V: Sonuç ve Kişisel Kazanımlar](./docs/5_Conclusion_and_Takeaways.md)**
+Projenin teknik başarısının ötesinde, bu yolculuğun problem çözme yeteneklerime, bakış açıma ve proje belgeleme disiplinime kattığı değerler.
 
 ---
 
