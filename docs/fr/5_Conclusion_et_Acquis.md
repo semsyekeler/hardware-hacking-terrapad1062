@@ -19,7 +19,7 @@ Ce projet a été une occasion inestimable de transformer des connaissances thé
 
 L'aspect le plus instructif de ce projet a été les obstacles qui semblaient insurmontables :
 
-*   **Transformer les Contraintes en Opportunités :** Au moment le plus critique du projet, alors qu'une réparation nécessitait à la fois un clavier et une clé USB alors que je n'avais qu'un seul port USB, j'étais sur le point d'abandonner. C'est alors que j'ai remarqué que les touches de volume de la tablette pouvaient naviguer dans l'historique des commandes. Cette petite observation m'a permis de concevoir une solution inhabituelle mais efficace : "taper la commande, débrancher le clavier, brancher la clé, rappeler la commande". Ce moment m'a appris que les plus grandes contraintes engendrent souvent les solutions les plus créatives.
+*   **Transformer les Contraintes en Opportunités :** Au moment le plus critique du projet, alors qu'une réparathttps://github.com/semsyekeler/hardware-hacking-terrapad1062-windows-tablet/blob/main/docs/fr/5_Conclusion_et_Acquis.mdion nécessitait à la fois un clavier et une clé USB alors que je n'avais qu'un seul port USB, j'étais sur le point d'abandonner. C'est alors que j'ai remarqué que les touches de volume de la tablette pouvaient naviguer dans l'historique des commandes. Cette petite observation m'a permis de concevoir une solution inhabituelle mais efficace : "taper la commande, débrancher le clavier, brancher la clé, rappeler la commande". Ce moment m'a appris que les plus grandes contraintes engendrent souvent les solutions les plus créatives.
 *   **Approche Systématique et Patience :** Le difficile parcours avec Linux n'a pas été un échec, mais une leçon stratégique. Mes efforts pour comprendre pourquoi différents systèmes ne fonctionnaient pas ont révélé l'incompatibilité UEFI sous-jacente. Cela a prouvé que comprendre "pourquoi" une solution ne fonctionne pas est plus précieux que de continuer à essayer aveuglément. De même, l'erreur tenace du "Clavier Fantôme" a été résolue par une observation patiente. Découvrir que la source du problème n'était pas un bug logiciel complexe, mais un simple contact physique (le boîtier métallique touchant le port), a montré que la solution la plus juste n'est pas toujours la plus complexe.
 
 ### Conclusion Personnelle et Discipline Future
@@ -33,9 +33,3 @@ Ce voyage m'a montré que dans chaque "déchet" peut se cacher un trésor, dans 
 ---
 **[← Chapitre Précédent : Au-delà des Limites - Nouvelles Capacités](./4_Au-dela_des_Limites.md) | [Retour à la Page d'Accueil du Projet →](https://github.com/semsyekeler/hardware-hacking-terrapad1062-windows-tablet)**
 
----
-<div align="center">
-
-**[📥 Télécharger cette page (Fichier .md)](https://raw.githubusercontent.com/semsyekeler/hardware-hacking-terrapad1062-windows-tablet/main/docs/fr/5_Conclusion_et_Acquis.md)** | **[📦 Télécharger le projet complet (.zip)](https://github.com/semsyekeler/hardware-hacking-terrapad1062-windows-tablet/archive/refs/heads/main.zip)**
-
-</div>
