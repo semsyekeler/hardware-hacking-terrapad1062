@@ -37,3 +37,11 @@ Bu rehber, benzer cihazlara sahip olan veya donanım modifikasyon projelerine il
 *   Sıcak Silikon Tabancası (Yalıtım için)
 
 ---
+
+## Ek Notlar ve Bilinen Kısıtlamalar
+
+*   **Stylus Kalem:** Wortmann AG'nin artık bu modelin orijinal tedarikçisi ile çalışmaması nedeniyle, cihazla uyumlu aktif bir stylus kalem bulmak neredeyse imkansızdır. Bu konuda resmi destek sunulamamaktadır.
+
+## Teşekkür
+
+Bu projenin başlangıç noktasındaki değerli yardımlarından ve hızlı geri dönüşlerinden dolayı Wortmann AG'den **Dennis Sudermann**'a teşekkürler.
