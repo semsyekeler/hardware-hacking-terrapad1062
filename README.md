@@ -8,7 +8,7 @@
 | :---: |
 | Bu proje, atıl durumdaki bir Windows tabletin onarılıp, donanım ve yazılım katmanlarında modifiye edilerek nasıl çok amaçlı, taşınabilir ve maliyet-etkin bir cihaza dönüştürüldüğünü belgelemektedir. Sonuç, piyasadaki birçok niş üründen daha yetenekli; **ofis işleri, web'de gezinme, PDF okuma/düzenleme ve medya tüketimi** gibi günlük görevleri mükemmel bir şekilde yerine getiren, aynı zamanda **taşınabilir gitar prosesörü** ve **mobil mühendislik istasyonu** gibi özel görevleri de üstlenebilen kişisel bir iş istasyonudur. |
 
-Bu depo, yazılımsal bir hata sonucu kullanılamaz hale gelen bir Terra Pad 1062 tabletin, sistematik arıza tespiti, onarımı ve bir dizi donanımsal/yazılımsal modifikasyonla modern, çok yönlü bir cihaza dönüştürülmesi sürecini adım adım belgelemektedir.
+Bu depo, yazılımsal bir hata sonucu **brick** olan bir Terra Pad 1062 tabletin, sistematik arıza tespiti, onarımı ve bir dizi donanımsal/yazılımsal modifikasyonla modern, çok yönlü bir cihaza dönüştürülmesi sürecini adım adım belgelemektedir.
 
 Bu rehber, benzer cihazlara sahip olan veya donanım modifikasyon projelerine ilgi duyanlar için teknik bir başvuru kaynağı olarak tasarlanmıştır.
 
