@@ -29,7 +29,7 @@ The pin configuration derived from the analysis is as follows:
 | **5**        | **Ground (GND)**    |     `GND`       | Common reference ground for the circuit.                                   |
 
 <p align="center">
-  <img src="../assets/images/tablete%20bağlanan%20usb%20dişi%20kısım.jpg" width="450">
+  <img src="../../assets/images/tablete%20bağlanan%20usb%20dişi%20kısım.jpg" width="450">
 </p>
 <p align="center">
   <i>The custom USB socket designed based on the information obtained through reverse engineering.</i>
