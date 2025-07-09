@@ -53,6 +53,7 @@ The following software, which runs best on this hardware and transforms the tabl
 ### Virtual Touchpad for Fine Control
 *   **Problem:** A touchscreen can sometimes be inadequate for fine-tuned tasks that require a mouse, like clicking small buttons or selecting text precisely.
 *   **Solution:** Windows 10 offers a built-in solution. Right-click the taskbar and enable the **"Show touchpad button"** option. This adds a touchpad icon to your taskbar. When clicked, it opens a virtual touchpad that you can move anywhere on the screen, allowing you to control the mouse cursor with precision using your finger.
+
 Thanks to this software and these optimizations, the tablet was transformed into a full-fledged portable Windows system, overcoming all the disadvantages imposed by its hardware.
 
 ---
