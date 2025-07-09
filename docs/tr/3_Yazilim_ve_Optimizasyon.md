@@ -52,6 +52,7 @@ Bu donanımda en iyi çalışan ve tableti gerçek bir taşınabilir iş istasyo
 ### İnce Kontrol İçin Sanal Dokunmatik Yüzey
 *   **Problem:** Dokunmatik ekran, bazen küçük butonlara tıklamak veya metinleri hassas bir şekilde seçmek gibi fare gerektiren ince işlerde yetersiz kalabilir.
 *   **Çözüm:** Windows 10, bu durumlar için yerleşik bir çözüm sunar. Görev çubuğuna sağ tıklayıp **"Dokunmatik yüzey düğmesini göster"** seçeneğini etkinleştirin. Bu, görev çubuğuna bir dokunmatik yüzey simgesi ekler. Tıkladığınızda, ekranın herhangi bir yerine taşıyabileceğiniz bir sanal touchpad açılır. Bu, fare imlecini parmağınızla hassas bir şekilde kontrol etmenizi sağlar.
+    
 Bu yazılımlar ve optimizasyonlar sayesinde tablet, donanımının getirdiği tüm dezavantajların aşıldığı, tam teşekküllü bir taşınabilir Windows sistemine dönüştü.
 
 ---
