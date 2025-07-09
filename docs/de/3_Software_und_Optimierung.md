@@ -23,11 +23,12 @@ Die Software, die auf dieser Hardware am besten funktionierte und das Tablet in 
 
 | Kategorie | Ausgewählte Software | Beschreibung und Download-Link |
 | :--- | :--- | :--- |
-| **Programmieren** | **Sublime Text** | Dank seiner unglaublich schlanken Struktur startet es sofort und bietet selbst bei größten Codedateien eine flüssige Nutzung ohne Ruckler. <br> *[Offizielle Webseite](https://www.sublimetext.com/)* |
-| **PDF** | **PDF-XChange Editor** | Im Gegensatz zu schwerfälligen Alternativen wie Adobe Reader startet es sehr schnell und bietet auch beim Navigieren in großen PDFs eine stabile Leistung ohne Hänger. <br> *[Offizielle Webseite](https://www.tracker-software.com/product/pdf-xchange-editor)* |
-| **Office** | **SoftMaker FreeOffice** | Die schnellste und leichteste Alternative zu Microsoft Office. Es öffnet und bearbeitet Word-, Excel- und PowerPoint-Dateien mit erstaunlicher Geschwindigkeit. <br> *[Offizielle Webseite](https://www.freeoffice.com/en/)* |
-| **E-Mail**| **Wino Mail** | Kombiniert eine moderne und saubere Benutzeroberfläche mit einer schlanken Struktur, die keine Systemressourcen verschwendet. <br> *[Microsoft Store](https://apps.microsoft.com/detail/9ncrcvjc50wl?hl=en-us&gl=us)* |
-| **Remote-Desktop**| **Parsec** | Dank seiner Low-Latency-Technologie ermöglicht es die Fernverbindung zum Hauptrechner, sodass auch anspruchsvolle Aufgaben flüssig auf diesem Tablet erledigt werden können. <br> *[Offizielle Webseite](https://parsec.app/)* |
+| **Bildschirmtastatur**| **Comfort On-Screen Keyboard Pro** | Eine professionelle Alternative, die die verzögerte integrierte Tastatur von Windows ersetzt. Sie öffnet sich sofort, funktioniert ohne Verzögerung und ihre Fähigkeit, bei Klick auf Textfelder automatisch zu erscheinen, überall verschoben und **dynamisch in der Größe verändert** zu werden, macht die Tablet-Nutzung unglaublich flüssig. <br> *[Offizielle Website](https://www.comfort-software.com/)* |
+| **Programmieren** | **Sublime Text** | Dank seiner unglaublich schlanken Struktur öffnet es sich sofort und bietet eine flüssige Nutzung ohne Ruckler, selbst bei den größten Codedateien. <br> *[Offizielle Website](https://www.sublimetext.com/)* |
+| **PDF** | **PDF-XChange Editor** | Im Gegensatz zu schwerfälligen Alternativen wie dem Adobe Reader öffnet es sehr schnell und bietet eine stabile Leistung ohne Verzögerungen, selbst beim Navigieren in großen PDFs. <br> *[Offizielle Website](https://www.tracker-software.com/product/pdf-xchange-editor)* |
+| **Office** | **SoftMaker FreeOffice** | Die schnellste und leichteste Alternative zu Microsoft Office. Es öffnet und bearbeitet Word-, Excel- und PowerPoint-Dateien mit erstaunlicher Geschwindigkeit. <br> *[Offizielle Website](https://www.freeoffice.com/en/)* |
+| **E-Mail**| **Wino Mail** | Es kombiniert eine moderne und saubere Benutzeroberfläche mit einer schlanken Struktur, die keine Systemressourcen verbraucht. <br> *[Microsoft Store](https://apps.microsoft.com/detail/9ncrcvjc50wl?hl=de-de&gl=de)* |
+| **Remote-Desktop**| **Parsec** | Dank seiner Technologie mit geringer Latenz können Sie sich remote mit Ihrem Hauptcomputer verbinden und selbst anspruchsvolle Aufgaben reibungslos von diesem Tablet aus erledigen. <br> *[Offizielle Website](https://parsec.app/)* |
 
 <p align="center">
   <img src="../../assets/images/programs.jpg" width="700">
@@ -49,6 +50,9 @@ Die Software, die auf dieser Hardware am besten funktionierte und das Tablet in 
 *   **Kritisches Touch-Problem bei Chromium-basierten Browsern und seine Lösung:**
     *   **Problem:** In Browsern wie Chrome oder Brave führte das Antippen der Schaltfläche "Neuer Tab öffnen" (+) dazu, dass das System die genaue Position der Berührung falsch interpretierte und stattdessen die direkt daneben liegende Schaltfläche "Tab schließen" (X) als gedrückt erkannte.
     *   **Lösung:** Um dieses Problem zu umgehen, muss man die Schaltfläche nicht nur kurz antippen, sondern **bei jedem Klick kurz gedrückt halten**. Diese kleine Verzögerung gibt dem System genügend Zeit, die korrekte Position richtig zu erkennen.
+### Virtuelles Touchpad für präzise Steuerung
+*   **Problem:** Ein Touchscreen kann bei feinen Aufgaben, die eine Maus erfordern, wie das Klicken auf kleine Schaltflächen oder das präzise Auswählen von Text, manchmal unzureichend sein.
+*   **Lösung:** Windows 10 bietet hierfür eine integrierte Lösung. Klicken Sie mit der rechten Maustaste auf die Taskleiste und aktivieren Sie die Option **"Touchpad-Schaltfläche anzeigen"**. Dadurch wird ein Touchpad-Symbol zur Taskleiste hinzugefügt. Wenn Sie darauf klicken, öffnet sich ein virtuelles Touchpad, das Sie überall auf dem Bildschirm verschieben können. So können Sie den Mauszeiger präzise mit dem Finger steuern.
 
 Dank dieser Software und Optimierungen wurde das Tablet in ein vollwertiges, tragbares Windows-System verwandelt, das alle Nachteile seiner Hardware überwindet.
 
