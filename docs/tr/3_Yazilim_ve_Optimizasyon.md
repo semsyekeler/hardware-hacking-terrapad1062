@@ -20,9 +20,9 @@ Donanım modifikasyonları tamamlandıktan sonraki aşama, bu donanıma en uygun
 ## B. Kritik Yazılım Seçimleri: Hız ve Stabilite
 
 Bu donanımda en iyi çalışan ve tableti gerçek bir taşınabilir iş istasyonuna dönüştüren, **hızlı açılan ve stabil kullanım sağlayan** yazılımlar şunlar oldu:
-
 | Kategori | Seçilen Yazılım | Açıklama ve İndirme Linki |
 | :--- | :--- | :--- |
+| **Ekran Klavyesi**| **Comfort On-Screen Keyboard Pro** | Windows'un gecikmeli dahili klavyesinin yerini alan, anında açılan ve gecikmesiz çalışan profesyonel bir alternatiftir. Metin alanlarına tıklandığında otomatik görünmesi, ekranın her yerine taşınabilmesi ve **dinamik olarak yeniden boyutlandırılabilmesi** tablet kullanımını çok akıcı hale getirir. <br> *[Resmi Web Sitesi](https://www.comfort-software.com/)* |
 | **Kodlama** | **Sublime Text** | İnanılmaz derecede hafif yapısı sayesinde anında açılıyor ve en büyük kod dosyalarında bile takılmadan, akıcı bir kullanım sunuyor. <br> *[Resmi Web Sitesi](https://www.sublimetext.com/)* |
 | **PDF** | **PDF-XChange Editor** | Adobe Reader gibi ağır alternatiflerin aksine, çok hızlı açılıyor ve büyük PDF'lerde gezinirken bile kasmadan stabil bir performans sergiliyor. <br> *[Resmi Web Sitesi](https://www.tracker-software.com/product/pdf-xchange-editor)* |
 | **Ofis** | **SoftMaker FreeOffice** | Microsoft Office'e en hızlı ve en hafif alternatif. Word, Excel ve PowerPoint dosyalarını şaşırtıcı bir hızla açıyor ve düzenliyor. <br> *[Resmi Web Sitesi](https://www.freeoffice.com/en/)* |
@@ -49,7 +49,9 @@ Bu donanımda en iyi çalışan ve tableti gerçek bir taşınabilir iş istasyo
 *   **Chromium Tabanlı Tarayıcılarda Kritik Dokunmatik Sorunu ve Çözümü:**
     *   **Problem:** Chrome, Brave gibi tarayıcılarda, "yeni sekme aç" (+) butonuna dokunmatik olarak tıklandığında, sistem dokunuşun hassas konumunu yanlış yorumlayıp hemen yanındaki "sekmeyi kapat" (X) butonuna basılmış gibi algılıyordu.
     *   **Çözüm:** Bu sorunu aşmak için, butona sadece dokunmak yerine, **her tıklamada kısa bir süre basılı tutmak** gerekiyor. Bu küçük gecikme, sistemin doğru konumu doğru bir şekilde tanıması için yeterli zamanı tanıyor.
-
+### İnce Kontrol İçin Sanal Dokunmatik Yüzey
+*   **Problem:** Dokunmatik ekran, bazen küçük butonlara tıklamak veya metinleri hassas bir şekilde seçmek gibi fare gerektiren ince işlerde yetersiz kalabilir.
+*   **Çözüm:** Windows 10, bu durumlar için yerleşik bir çözüm sunar. Görev çubuğuna sağ tıklayıp **"Dokunmatik yüzey düğmesini göster"** seçeneğini etkinleştirin. Bu, görev çubuğuna bir dokunmatik yüzey simgesi ekler. Tıkladığınızda, ekranın herhangi bir yerine taşıyabileceğiniz bir sanal touchpad açılır. Bu, fare imlecini parmağınızla hassas bir şekilde kontrol etmenizi sağlar.
 Bu yazılımlar ve optimizasyonlar sayesinde tablet, donanımının getirdiği tüm dezavantajların aşıldığı, tam teşekküllü bir taşınabilir Windows sistemine dönüştü.
 
 ---
