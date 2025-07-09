@@ -23,11 +23,12 @@ The following software, which runs best on this hardware and transforms the tabl
 
 | Category | Selected Software | Description and Download Link |
 | :--- | :--- | :--- |
-| **Coding** | **Sublime Text** | Its incredibly lightweight structure allows it to open instantly and provide a smooth, lag-free experience even with the largest code files. <br> *[Official Website](https://www.sublimetext.com/)* |
-| **PDF** | **PDF-XChange Editor** | Unlike heavy alternatives like Adobe Reader, it opens very quickly and delivers stable performance without stuttering, even when navigating large PDFs. <br> *[Official Website](https://www.tracker-software.com/product/pdf-xchange-editor)* |
+| **On-Screen Keyboard**| **Comfort On-Screen Keyboard Pro** | A professional alternative that replaces Windows's laggy built-in keyboard. It opens instantly, works without lag, and its ability to appear automatically on text-field clicks, be moved anywhere, and be **dynamically resized** makes tablet use incredibly fluid. <br> *[Official Website](https://www.comfort-software.com/)* |
+| **Coding** | **Sublime Text** | Its incredibly lightweight nature allows it to open instantly and provide a smooth experience without stuttering, even with the largest code files. <br> *[Official Website](https://www.sublimetext.com/)* |
+| **PDF** | **PDF-XChange Editor** | Unlike heavy alternatives like Adobe Reader, it opens very quickly and provides stable performance without lagging, even when navigating large PDFs. <br> *[Official Website](https://www.tracker-software.com/product/pdf-xchange-editor)* |
 | **Office** | **SoftMaker FreeOffice** | The fastest and lightest alternative to Microsoft Office. It opens and edits Word, Excel, and PowerPoint files with surprising speed. <br> *[Official Website](https://www.freeoffice.com/en/)* |
-| **E-Mail**| **Wino Mail** | Combines a modern and clean interface with a lightweight structure that doesn't consume system resources. <br> *[Microsoft Store](https://apps.microsoft.com/detail/9ncrcvjc50wl?hl=en-us&gl=us)* |
-| **Remote Desktop**| **Parsec** | Its low-latency technology allows you to connect to your main computer remotely, enabling you to perform even heavy tasks smoothly on this tablet. <br> *[Official Website](https://parsec.app/)* |
+| **E-Mail**| **Wino Mail** | It combines a modern and clean interface with a lightweight structure that doesn't consume system resources. <br> *[Microsoft Store](https://apps.microsoft.com/detail/9ncrcvjc50wl?hl=en-us&gl=us)* |
+| **Remote Desktop**| **Parsec** | Its low-latency technology allows you to connect remotely to your main computer and perform even heavy tasks smoothly from this tablet. <br> *[Official Website](https://parsec.app/)* |
 
 <p align="center">
   <img src="../../assets/images/programs.jpg" width="700">
@@ -49,7 +50,9 @@ The following software, which runs best on this hardware and transforms the tabl
 *   **Critical Touchscreen Issue in Chromium-Based Browsers and Its Solution:**
     *   **Problem:** In browsers like Chrome and Brave, when tapping the "open new tab" (+) button, the system would misinterpret the precise location of the touch and act as if the adjacent "close tab" (X) button was pressed.
     *   **Solution:** To overcome this issue, instead of just tapping the button, you need to **press and hold briefly with each click**. This small delay gives the system enough time to correctly register the proper location.
-
+### Virtual Touchpad for Fine Control
+*   **Problem:** A touchscreen can sometimes be inadequate for fine-tuned tasks that require a mouse, like clicking small buttons or selecting text precisely.
+*   **Solution:** Windows 10 offers a built-in solution. Right-click the taskbar and enable the **"Show touchpad button"** option. This adds a touchpad icon to your taskbar. When clicked, it opens a virtual touchpad that you can move anywhere on the screen, allowing you to control the mouse cursor with precision using your finger.
 Thanks to this software and these optimizations, the tablet was transformed into a full-fledged portable Windows system, overcoming all the disadvantages imposed by its hardware.
 
 ---
