@@ -21,13 +21,14 @@ Une fois les modifications matérielles terminées, l'étape suivante consistait
 
 Voici les logiciels qui ont le mieux fonctionné sur ce matériel et qui ont transformé la tablette en une véritable station de travail portable, en offrant un **démarrage rapide et une utilisation stable** :
 
-| Catégorie | Logiciel Choisi | Description et Lien de Téléchargement |
+| Catégorie | Logiciel Sélectionné | Description et Lien de Téléchargement |
 | :--- | :--- | :--- |
-| **Codage** | **Sublime Text** | Grâce à sa structure incroyablement légère, il s'ouvre instantanément et offre une utilisation fluide même avec les plus gros fichiers de code. <br> *[Site Officiel](https://www.sublimetext.com/)* |
-| **PDF** | **PDF-XChange Editor** | Contrairement aux alternatives lourdes comme Adobe Reader, il s'ouvre très rapidement et offre des performances stables sans ralentir, même en naviguant dans de gros PDF. <br> *[Site Officiel](https://www.tracker-software.com/product/pdf-xchange-editor)* |
-| **Bureautique** | **SoftMaker FreeOffice** | L'alternative la plus rapide et la plus légère à Microsoft Office. Il ouvre et modifie les fichiers Word, Excel et PowerPoint à une vitesse surprenante. <br> *[Site Officiel](https://www.freeoffice.com/en/)* |
-| **E-mail**| **Wino Mail** | Combine une interface moderne et épurée avec une structure légère qui ne consomme pas les ressources système. <br> *[Microsoft Store](https://apps.microsoft.com/detail/9ncrcvjc50wl?hl=en-us&gl=us)* |
-| **Bureau à Distance**| **Parsec** | Grâce à sa technologie à faible latence, il permet de se connecter à distance à l'ordinateur principal et d'effectuer des tâches lourdes de manière fluide depuis cette tablette. <br> *[Site Officiel](https://parsec.app/)* |
+| **Clavier Visuel**| **Comfort On-Screen Keyboard Pro** | Une alternative professionnelle qui remplace le clavier intégré et lent de Windows. Il s'ouvre instantanément, fonctionne sans latence, et sa capacité à apparaître automatiquement sur les champs de texte, à être déplacé n'importe où et à être **redimensionné dynamiquement** rend l'utilisation de la tablette incroyablement fluide. <br> *[Site Officiel](https://www.comfort-software.com/)* |
+| **Codage** | **Sublime Text** | Sa structure incroyablement légère lui permet de s'ouvrir instantanément et d'offrir une utilisation fluide sans saccades, même avec les fichiers de code les plus volumineux. <br> *[Site Officiel](https://www.sublimetext.com/)* |
+| **PDF** | **PDF-XChange Editor** | Contrairement aux alternatives lourdes comme Adobe Reader, il s'ouvre très rapidement et offre des performances stables sans ralentissement, même en naviguant dans de gros PDF. <br> *[Site Officiel](https://www.tracker-software.com/product/pdf-xchange-editor)* |
+| **Bureautique** | **SoftMaker FreeOffice** | L'alternative la plus rapide et la plus légère à Microsoft Office. Il ouvre et modifie les fichiers Word, Excel et PowerPoint avec une rapidité surprenante. <br> *[Site Officiel](https://www.freeoffice.com/fr/)* |
+| **E-mail**| **Wino Mail** | Il combine une interface moderne et épurée avec une structure légère qui ne consomme pas les ressources du système. <br> *[Microsoft Store](https://apps.microsoft.com/detail/9ncrcvjc50wl?hl=fr-fr&gl=fr)* |
+| **Bureau à Distance**| **Parsec** | Sa technologie à faible latence vous permet de vous connecter à distance à votre ordinateur principal et d'effectuer des tâches lourdes de manière fluide depuis cette tablette. <br> *[Site Officiel](https://parsec.app/)* |
 
 <p align="center">
   <img src="../../assets/images/programs.jpg" width="700">
@@ -49,6 +50,11 @@ Voici les logiciels qui ont le mieux fonctionné sur ce matériel et qui ont tra
 *   **Problème Tactile Critique sur les Navigateurs Basés sur Chromium et sa Solution :**
     *   **Problème :** Sur des navigateurs comme Chrome ou Brave, en appuyant sur le bouton "ouvrir un nouvel onglet" (+), le système interprétait mal la position précise du toucher et agissait comme si le bouton "fermer l'onglet" (X) juste à côté avait été pressé.
     *   **Solution :** Pour surmonter ce problème, il faut **maintenir le doigt sur le bouton pendant un court instant à chaque clic** au lieu de simplement taper. Ce petit délai donne au système suffisamment de temps pour reconnaître correctement la bonne position.
+
+
+### Pavé Tactile Virtuel pour un Contrôle Précis
+*   **Problème :** Un écran tactile peut parfois être inadéquat pour des tâches de précision qui nécessitent une souris, comme cliquer sur de petits boutons ou sélectionner du texte avec précision.
+*   **Solution :** Windows 10 propose une solution intégrée. Faites un clic droit sur la barre des tâches et activez l'option **"Afficher le bouton du pavé tactile"**. Cela ajoute une icône de pavé tactile à votre barre des tâches. En cliquant dessus, un pavé tactile virtuel s'ouvre, que vous pouvez déplacer n'importe où sur l'écran, vous permettant de contrôler le curseur de la souris avec précision à l'aide de votre doigt.
 
 Grâce à ces logiciels et optimisations, la tablette a surmonté tous les inconvénients de son matériel pour devenir un système Windows portable complet.
 
