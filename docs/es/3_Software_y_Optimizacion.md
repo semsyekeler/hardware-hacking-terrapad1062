@@ -21,13 +21,14 @@ Una vez completadas las modificaciones de hardware, el siguiente paso era establ
 
 El software que funcionó mejor en este hardware y transformó la tableta en una verdadera estación de trabajo portátil, proporcionando **arranque rápido y uso estable**, fue el siguiente:
 
-| Categoría | Software Elegido | Descripción y Enlace de Descarga |
+| Categoría | Software Seleccionado | Descripción y Enlace de Descarga |
 | :--- | :--- | :--- |
-| **Codificación** | **Sublime Text** | Increíblemente ligero, se abre al instante y ofrece un uso fluido sin tirones, incluso con los archivos de código más grandes. <br> *[Sitio Web Oficial](https://www.sublimetext.com/)* |
-| **PDF** | **PDF-XChange Editor** | A diferencia de alternativas pesadas como Adobe Reader, se abre muy rápido y ofrece un rendimiento estable sin retardos al navegar por archivos PDF grandes. <br> *[Sitio Web Oficial](https://www.tracker-software.com/product/pdf-xchange-editor)* |
-| **Ofimática** | **SoftMaker FreeOffice** | La alternativa más rápida y ligera a Microsoft Office. Abre y edita archivos de Word, Excel y PowerPoint a una velocidad sorprendente. <br> *[Sitio Web Oficial](https://www.freeoffice.com/en/)* |
+| **Teclado en Pantalla**| **Comfort On-Screen Keyboard Pro** | Una alternativa profesional que reemplaza el lento teclado integrado de Windows. Se abre al instante, funciona sin lag, y su capacidad para aparecer automáticamente al hacer clic en campos de texto, moverse a cualquier lugar y **redimensionarse dinámicamente** hace que el uso de la tableta sea increíblemente fluido. <br> *[Sitio Web Oficial](https://www.comfort-software.com/)* |
+| **Programación** | **Sublime Text** | Su estructura increíblemente ligera le permite abrirse al instante y ofrecer un uso fluido sin tartamudeos, incluso con los archivos de código más grandes. <br> *[Sitio Web Oficial](https://www.sublimetext.com/)* |
+| **PDF** | **PDF-XChange Editor** | A diferencia de alternativas pesadas como Adobe Reader, se abre muy rápidamente y ofrece un rendimiento estable sin tirones, incluso al navegar por archivos PDF de gran tamaño. <br> *[Sitio Web Oficial](https://www.tracker-software.com/product/pdf-xchange-editor)* |
+| **Oficina** | **SoftMaker FreeOffice** | La alternativa más rápida y ligera a Microsoft Office. Abre y edita archivos de Word, Excel y PowerPoint con una velocidad sorprendente. <br> *[Sitio Web Oficial](https://www.freeoffice.com/es/)* |
 | **Correo**| **Wino Mail** | Combina una interfaz moderna y limpia con una estructura ligera que no consume recursos del sistema. <br> *[Microsoft Store](https://apps.microsoft.com/detail/9ncrcvjc50wl?hl=es-es&gl=es)* |
-| **Escritorio Remoto**| **Parsec** | Su tecnología de baja latencia permite conectarse remotamente al ordenador principal y realizar tareas pesadas de forma fluida desde esta tableta. <br> *[Sitio Web Oficial](https://parsec.app/)* |
+| **Escritorio Remoto**| **Parsec** | Su tecnología de baja latencia te permite conectarte de forma remota a tu ordenador principal y realizar incluso tareas pesadas de forma fluida desde esta tableta. <br> *[Sitio Web Oficial](https://parsec.app/)* |
 
 <p align="center">
   <img src="../../assets/images/programs.jpg" width="700">
@@ -49,6 +50,10 @@ El software que funcionó mejor en este hardware y transformó la tableta en una
 *   **Problema Crítico Táctil en Navegadores Basados en Chromium y su Solución:**
     *   **Problema:** En navegadores como Chrome y Brave, al tocar el botón de "abrir nueva pestaña" (+), el sistema interpretaba incorrectamente la posición precisa del toque y actuaba como si se hubiera presionado el botón adyacente de "cerrar pestaña" (X).
     *   **Solución:** Para superar este problema, en lugar de solo tocar el botón, es necesario **mantenerlo presionado brevemente en cada clic**. Este pequeño retraso le da al sistema tiempo suficiente para reconocer la posición correcta con precisión.
+
+### Panel Táctil Virtual para Control Fino
+*   **Problema:** Una pantalla táctil a veces puede ser insuficiente para tareas de precisión que requieren un ratón, como hacer clic en botones pequeños o seleccionar texto con exactitud.
+*   **Solución:** Windows 10 ofrece una solución integrada. Haz clic derecho en la barra de tareas y activa la opción **"Mostrar el botón del panel táctil"**. Esto añade un icono de panel táctil a tu barra de tareas. Al hacer clic, se abre un panel táctil virtual que puedes mover a cualquier parte de la pantalla, permitiéndote controlar el cursor del ratón con precisión usando tu dedo.
 
 Gracias a este software y a estas optimizaciones, la tableta superó todas las desventajas de su hardware y se transformó en un sistema Windows portátil totalmente funcional.
 
